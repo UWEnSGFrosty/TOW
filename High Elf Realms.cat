@@ -1564,7 +1564,7 @@ Note that if an attack wounds automatically, this special rule cannot be used.</
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde8-1f14-1e0b-3a0a" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="9d42-09b1-f392-c18c" name="Shortbow" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="9d42-09b1-f392-c18c" name="Shortbow" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e3-0c21-929e-b1b9" type="max"/>
                   </constraints>
@@ -1575,7 +1575,7 @@ Note that if an attack wounds automatically, this special rule cannot be used.</
                     <cost name="pts" typeId="points" value="1.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="a390-7e80-9958-f687" name="Cavalry Spear" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="a390-7e80-9958-f687" name="Cavalry Spear" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6f-b25e-eeb5-3a2d" type="max"/>
                   </constraints>
@@ -1586,7 +1586,7 @@ Note that if an attack wounds automatically, this special rule cannot be used.</
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e747-ee74-11ae-387d" name="Cavalry Spear and Shortbow" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="e747-ee74-11ae-387d" name="Cavalry Spear and Shortbow" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353d-49d8-c55f-2226" type="max"/>
                   </constraints>
@@ -2924,6 +2924,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a2b-6354-f803-af88" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d7ad-91cd-7c5f-0bd7" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="baff-f539-9ab0-4653" name="Magic Standards" hidden="false" collective="false" import="true" targetId="eac3-00ad-f4a2-c228" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -5265,7 +5268,7 @@ When the wielder of Foe Bane makes a roll To Wound, a roll of 4+ is always a suc
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35af-a782-5c03-c92d" name="FoF - The Loremaster&apos;s Cloak" publicationId="5cca-edd4-43a8-7719" page="182" hidden="false" collective="false" import="true" type="upgrade">
@@ -5409,7 +5412,7 @@ In addition, during the Command sub-phase of their turn, if they are not engaged
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee34-d1f4-4dd6-fa28" name="FoF - Sigil Of Asuryan*" publicationId="5cca-edd4-43a8-7719" page="183" hidden="false" collective="false" import="true" type="upgrade">
