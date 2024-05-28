@@ -1003,7 +1003,7 @@
             <entryLink id="1fb5-f16f-3280-20c7" name="Magic Armor" hidden="false" collective="false" import="true" targetId="e763-60fe-163d-f7df" type="selectionEntryGroup"/>
             <entryLink id="d75c-d85d-b275-9c9a" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="50eb-3c20-c6f7-c4b3" type="selectionEntryGroup"/>
             <entryLink id="dcb1-0df4-ce57-782f" name="Talismans" hidden="false" collective="false" import="true" targetId="0b04-f169-455d-f2cd" type="selectionEntryGroup"/>
-            <entryLink id="88c1-8c8f-d6ae-aa87" name="Arcane Items" hidden="true" collective="false" import="true" targetId="7ff5-ed5d-b3e0-8efa" type="selectionEntryGroup"/>
+            <entryLink id="88c1-8c8f-d6ae-aa87" name="Arcane Items" hidden="false" collective="false" import="true" targetId="7ff5-ed5d-b3e0-8efa" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1185,7 +1185,7 @@
             <entryLink id="b893-4e8a-c5cf-02a3" name="Magic Armor" hidden="false" collective="false" import="true" targetId="e763-60fe-163d-f7df" type="selectionEntryGroup"/>
             <entryLink id="abab-ab7a-f88d-64e3" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="50eb-3c20-c6f7-c4b3" type="selectionEntryGroup"/>
             <entryLink id="084f-e0de-1a62-7d62" name="Talismans" hidden="false" collective="false" import="true" targetId="0b04-f169-455d-f2cd" type="selectionEntryGroup"/>
-            <entryLink id="5c44-b70f-40db-fa0e" name="Arcane Items" hidden="true" collective="false" import="true" targetId="7ff5-ed5d-b3e0-8efa" type="selectionEntryGroup"/>
+            <entryLink id="5c44-b70f-40db-fa0e" name="Arcane Items" hidden="false" collective="false" import="true" targetId="7ff5-ed5d-b3e0-8efa" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
