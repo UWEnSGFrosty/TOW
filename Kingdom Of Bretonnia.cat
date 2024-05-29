@@ -890,7 +890,7 @@ A model wielding a polearm cannot make a supporting attack during a turn in whic
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b923-d167-8c23-cdd3" name="Burning Braziers" hidden="false" collective="false" import="true" type="upgrade">

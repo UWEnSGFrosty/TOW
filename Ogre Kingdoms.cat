@@ -617,6 +617,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
                   <infoLinks>
                     <infoLink id="7366-2047-7bba-33fb" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="97d3-72df-f3d2-924a" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -804,6 +807,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
               <infoLinks>
                 <infoLink id="039d-ac3f-c9cc-f4eb" name="Immune to Psychology" hidden="false" targetId="8de9-e265-8e60-3456" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="43fa-ae1e-88d9-12e2" name="Poisoned Attacks" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -812,6 +818,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
               <infoLinks>
                 <infoLink id="d381-fd3e-2751-c1a7" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="537d-b44a-9c2c-9211" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -820,6 +829,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
               <infoLinks>
                 <infoLink id="203e-db9c-55a5-3436" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="83b6-3601-e211-209c" name="Vanguard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -828,6 +840,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
               <infoLinks>
                 <infoLink id="c243-60cf-52d3-15f6" name="Vanguard" hidden="false" targetId="351f-9b6f-6ee0-85b2" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1153,6 +1168,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
                   <infoLinks>
                     <infoLink id="40a0-7c89-2f34-23c9" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="c677-760a-0336-82ac" name="Heavy Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -1351,6 +1369,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
           <infoLinks>
             <infoLink id="4e31-e588-e9c2-b93d" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3390-74eb-699b-abfa" name="Gnoblar Scrapper" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1380,6 +1401,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
             <infoLink id="4489-a75d-24ad-1b75" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="ef19-4cbd-8973-bf1d" name="Throwing Weapons" hidden="false" targetId="16f3-6038-e2e3-009e" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="12c9-fb4e-03bd-d535" name="Rhinox" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1409,6 +1433,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
             <infoLink id="88a1-1bd3-9961-5c4b" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="6ceb-da88-894f-e80e" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1497,6 +1524,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
             <infoLink id="6e63-5ccf-45a4-4147" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="92b5-c2cc-bafc-cad1" name="Throwing Weapons" hidden="false" targetId="16f3-6038-e2e3-009e" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3db7-eaca-5f16-1a78" name="Rhinox" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1526,6 +1556,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
             <infoLink id="a2e0-5aa0-231e-5149" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="b778-01b6-c6b5-fee0" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1614,6 +1647,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
             <infoLink id="aa9d-a1d6-253c-fa59" name="Harpoon Launcher" hidden="false" targetId="4ac9-b631-9c95-4e51" type="profile"/>
             <infoLink id="8e3e-9f49-0689-c1de" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="45dc-71b3-fcc5-fe93" name="Ogre Beast Rider" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1676,6 +1712,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
                       </characteristics>
                     </profile>
                   </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="7965-a21d-7429-437c" name="Blood Vulture" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1698,6 +1737,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1793,6 +1835,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
             <infoLink id="713b-7433-ac29-1867" name="Harpoon Launcher" hidden="false" targetId="4ac9-b631-9c95-4e51" type="profile"/>
             <infoLink id="f839-46b7-6db3-f817" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b95a-7293-42db-841f" name="Ogre Beast Rider" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1855,6 +1900,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
                       </characteristics>
                     </profile>
                   </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="3750-74b7-c484-362c" name="Blood Vulture" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1877,6 +1925,9 @@ If the roll To Hit is successful when firing scatter shot, a leadbelcher gun cau
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2547,6 +2598,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               <infoLinks>
                 <infoLink id="52a0-ab99-f1f1-7eb4" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="cab0-5c0b-eed6-c418" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2729,6 +2783,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               <infoLinks>
                 <infoLink id="f198-9177-323f-b6ff" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="046c-3e78-bf0c-e146" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2924,6 +2981,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3069,7 +3129,7 @@ a +1 modifier to their Movement characteristic.</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Behemoth</characteristic>
@@ -3116,7 +3176,7 @@ a +1 modifier to their Movement characteristic.</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Behemoth</characteristic>
@@ -3210,7 +3270,7 @@ enemy model whose base lies underneath the template risks being hit by this weap
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
-            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"></characteristic>
+            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Killing Blow, Magical Attacks, Strike First</characteristic>
           </characteristics>
         </profile>
@@ -3601,7 +3661,10 @@ Note that the result of this additional D3 cannot cause a miscast or a perfect i
     <rule id="5ab9-6f38-bb17-1560" name="Thunderous Charge" publicationId="bbbd-ae0f-39c3-e3a5" page="24" hidden="false">
       <description>Impact Hits caused by this model have an Armour Piercing characteristic of -2.</description>
     </rule>
-    <rule id="c6c0-c7ff-a3e1-8b7d" name="Lore of the Great Maw" publicationId="bbbd-ae0f-39c3-e3a5" hidden="false"/>
+    <rule id="c6c0-c7ff-a3e1-8b7d" name="Lore of the Great Maw" publicationId="bbbd-ae0f-39c3-e3a5" page="25" hidden="false">
+      <description>A Wizard with the ‘Lore of the Great Maw’ special rule may discard one of their randomly generated spells as normal.
+When they do so, they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed on page 25 of the Ogre Kingdoms Legacy Army List. </description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4ac9-b631-9c95-4e51" name="Harpoon Launcher" publicationId="bbbd-ae0f-39c3-e3a5" page="26" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
