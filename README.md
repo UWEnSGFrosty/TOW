@@ -13,13 +13,8 @@ Warhammer: The Old World
 
 __What's this?__
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
+This project adds Warhammer: The Old World into BattleScribe. Yes, it is already available on NewRecruit, but now it's on BattleScribe as well.
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
-
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 __I found a bug!__ / *I have another request*
 
@@ -30,5 +25,4 @@ Great, thank you! Please [Report a bug][bug report] - you can also suggest enhan
 * [BSData organization homepage][BSData.net]
 * [BattleScribe app homepage](https://www.battlescribe.net/)
 
-[BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/TemplateDataRepo/issues/new/choose
+[bug report]: https://github.com/Birddie721/TOW/issues/new
