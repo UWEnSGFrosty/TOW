@@ -25,4 +25,5 @@ Great, thank you! Please [Report a bug][bug report] - you can also suggest enhan
 * [BSData organization homepage][BSData.net]
 * [BattleScribe app homepage](https://www.battlescribe.net/)
 
+[BSData.net]: https://www.bsdata.net/
 [bug report]: https://github.com/Birddie721/TOW/issues/new
