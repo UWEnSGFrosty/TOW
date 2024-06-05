@@ -2607,6 +2607,15 @@ Note that this modifier is not cumulative.</description>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5d88-04e7-52f2-3f57" name="War Boar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d99c-4a48-49d2-080b" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5b6-6e04-3fb4-cd88" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="31dc-2b0e-bdd1-c33b" name="War Boar" hidden="false" targetId="98bf-5d51-2d57-3e14" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -5490,6 +5499,15 @@ This weapon shoots like a stone thrower, using the &apos;Bombardment&apos; speci
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="cb13-dd3f-53fc-562a" name="War Boar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2440-e20a-da27-3f2e" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51cf-230a-01a5-5c73" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4365-4c8a-20cc-dc78" name="War Boar" hidden="false" targetId="98bf-5d51-2d57-3e14" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
