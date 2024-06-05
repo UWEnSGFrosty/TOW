@@ -1536,6 +1536,9 @@ After determining the number of shots, roll To Hit for each as normal, using the
                   <description>An Iron Daemon equipped with a Skullcracker replaces the Impact Hits (D6+1) special rule with the Impact Hits (2D6+2) special rule and gains the Armour Bane (1) special rule.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1724,7 +1727,7 @@ This weapon shoots like a stone thrower, using the ‘Bombardment’ special rul
         <infoLink id="4ada-eeb9-a342-4d81" name="Blackshard Armour" hidden="false" targetId="0f88-6bd5-d6c7-3a80" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="695a-a940-2ea3-dc00" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
+        <categoryLink id="c8dd-bd1b-2fcf-02cf" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cdbe-8da5-84b0-8715" name="Hellbound" hidden="false" collective="false" import="true" type="upgrade">
@@ -2955,12 +2958,22 @@ Note that, for the purposes of this rule, an Orc unit is considered to be any un
               </costs>
             </selectionEntry>
             <selectionEntry id="e5e8-ed03-2569-59d5" name="Blood of Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="61c2-86e0-3e19-2b55" name="Blood Of Hashut" hidden="false" targetId="5349-4454-a18c-bf1f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f23-83f4-9e37-689b" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4781-0966-33e8-51a9" name="Blood of Hashut" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c679-9f36-7326-3e1b" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="597d-83ed-226d-83eb" name="Blood Of Hashut" hidden="false" targetId="5349-4454-a18c-bf1f" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
             <selectionEntry id="f9d2-0afd-7a85-a1cc" name="Naptha Bombs" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3121,14 +3134,6 @@ Note that, for the purposes of this rule, an Orc unit is considered to be any un
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f2db-c7ed-f7ef-c7f4" name="Blood of Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="79c7-2f05-3938-3127" name="Blood Of Hashut" hidden="false" targetId="5349-4454-a18c-bf1f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="e8b8-cf29-7612-603c" name="Naptha Bombs" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0fe-fe01-c50b-f94c" type="max"/>
@@ -3139,6 +3144,24 @@ Note that, for the purposes of this rule, an Orc unit is considered to be any un
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="0e18-a227-b251-00df" name="Blood of Hashut" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cad-ad4f-39e6-ea03" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="65c0-4b0c-4a25-aefc" name="Blood of Hashut" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1f6-c30d-fe5c-fc2d" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="11b8-9cbd-0a82-3dda" name="Blood Of Hashut" hidden="false" targetId="5349-4454-a18c-bf1f" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
