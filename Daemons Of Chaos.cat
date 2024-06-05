@@ -67,6 +67,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e3-3ce5-a52a-dff6" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -248,6 +251,9 @@ A Bloodflail&apos;s Strength modifier applies only during the first round of com
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f49f-5761-2cda-b544" name="Soul Grinder" publicationId="4971-02be-cd06-25f9" page="26" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -478,6 +484,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f43c-88af-ea6e-a728" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0043-3b36-4cbc-0c4b" name="Daemonic Locus" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -672,6 +681,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3089-62d3-9a30-77bd" name="Daemon Prince" publicationId="4971-02be-cd06-25f9" page="24" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -758,6 +770,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c8-6ff1-8df3-6bb6" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9341-cf88-970c-d75a" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b287-cdd1-5968-b819" name="Fly (9)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -802,6 +817,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c774-857d-e0e7-bf66" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="38dd-c61f-6936-e7e2" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c806-7a82-cc23-6b94" name="General of Slaanesh" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -835,6 +853,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3953-a482-30f5-0318" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c843-f11f-adc8-cbaf" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="40cc-78b7-05dc-3957" name="General of Tzeentch" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -868,6 +889,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3003-eafb-f874-9c2c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="310a-fae8-5f05-d06d" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3ecd-b284-74c6-0723" name="General of Nurgle" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -901,6 +925,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0063-7acd-3d21-2e31" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eb67-eb23-1827-9c60" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -968,6 +995,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
               <infoLinks>
                 <infoLink id="8252-cee4-8fe3-f7b9" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1534-6f3b-67c6-696b" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1235,6 +1265,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0460-f4f6-cb41-d1b0" name="Bloodcrushers Of Khorne" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -1390,6 +1423,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a182-7bf5-7866-c9e4" name="Skull Cannon Of Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -1482,8 +1518,14 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
           <infoLinks>
             <infoLink id="0876-d9d9-96be-1e00" name="Hellblade" hidden="false" targetId="f74a-8624-1202-82fd" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6f7f-21f7-dcfc-1643" name="Great Unclean One - Greater Daemon Of Nurgle" publicationId="4971-02be-cd06-25f9" page="9" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1541,6 +1583,9 @@ This weapon shoots like a fire thrower, using the ‘Column of Fire’ special r
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ce-7d74-61ea-0769" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1612,6 +1657,9 @@ A Plagueflail&apos;s Strength modifier applies only during the first round of co
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d5-8d82-170c-5bcb" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8ec9-3d07-122d-943b" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1760,6 +1808,9 @@ A Plagueflail&apos;s Strength modifier applies only during the first round of co
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9be-a2cc-ed3e-174d" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="442d-6929-8619-046e" name="Daemonic Locus" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2036,6 +2087,9 @@ A Plagueflail&apos;s Strength modifier applies only during the first round of co
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="39a2-c54d-d99b-862e" name="Beasts Of Nurgle" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -2123,6 +2177,9 @@ A Plagueflail&apos;s Strength modifier applies only during the first round of co
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="54e4-a0df-e099-91cf" name="Nurglings" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -2192,6 +2249,9 @@ A Plagueflail&apos;s Strength modifier applies only during the first round of co
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9a99-53d7-49a2-540f" name="Plague Drones Of Nurgle" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -2373,6 +2433,9 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3025-70a3-317b-35c1" name="Keeper Of Secrets - Greater Daemon Of Slaanesh" publicationId="4971-02be-cd06-25f9" page="9" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2436,6 +2499,9 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c82-a111-c310-d616" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2449,6 +2515,9 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9b-6d33-9eef-2078" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9da6-4ebc-213b-568e" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2524,7 +2593,7 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
       <modifiers>
         <modifier type="increment" field="fadc-0e53-aade-0665" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cf32-daa5-8588-f9b0" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cefb-ba87-88cf-2a33" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50d0-078b-5526-4f2c" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2455-d157-62cd-764e" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3bb7-46c1-037d-be9a" repeats="1" roundUp="false"/>
@@ -2593,6 +2662,9 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb1-5ca0-30d5-fa6f" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="af4f-98a4-93a5-7f4f" name="Daemonic Locus" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2851,6 +2923,9 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3bb7-46c1-037d-be9a" name="Seekers Of Slaanesh" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -2917,7 +2992,7 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
           <profiles>
             <profile id="0e55-01aa-ae75-4bd6" name="Seeker" publicationId="4971-02be-cd06-25f9" page="15" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
               <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323"></characteristic>
+                <characteristic name="M" typeId="4d23232344415441232323"/>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
@@ -2997,6 +3072,9 @@ In combat, a Rot Fly makes one of its attacks each turn with this weapon.</chara
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b870-67c9-8e22-76a6" name="Fiends Of Slaanesh" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -3078,6 +3156,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="50d0-078b-5526-4f2c" name="Hellflayer Of Slaanesh" publicationId="4971-02be-cd06-25f9" page="16" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -3164,6 +3245,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="226d-88df-32c5-c365" name="Piercing Claws" hidden="false" targetId="bd80-98d8-e677-3f1d" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b7f4-0b01-2b64-f4a4" name="Daemonette Crew" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3192,6 +3276,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="0f87-db8a-0f8b-a56d" name="Piercing Claws" hidden="false" targetId="bd80-98d8-e677-3f1d" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3e3d-667c-c3c0-e444" name="Steed of Slaanesh" publicationId="5fe9-85b6-a584-6dfe" page="16" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3217,126 +3304,13 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="145.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cf32-daa5-8588-f9b0" name="Seeker Chariot Of Slaanesh" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" collective="false" import="true" type="unit">
-      <modifierGroups>
-        <modifierGroup>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2813-0635-75f0-47b7" type="atLeast">
-                  <comment>If Keeper Of Secrets General</comment>
-                </condition>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a243-977e-48cd-7e07" type="atLeast">
-                  <comment>If Herald Of Slaanesh General</comment>
-                </condition>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c806-7a82-cc23-6b94" type="atLeast"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-          <modifiers>
-            <modifier type="set-primary" field="category" value="f2ef-b3e4-02b2-0e8b"/>
-            <modifier type="add" field="category" value="f2ef-b3e4-02b2-0e8b"/>
-            <modifier type="unset-primary" field="category" value="41ac-8b29-caf2-1245"/>
-            <modifier type="remove" field="category" value="41ac-8b29-caf2-1245"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-      <profiles>
-        <profile id="0c9a-781b-1137-dc53" name="Seeker Chariot" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-            <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
-            <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
-            <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
-            <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-            <characteristic name="W" typeId="5723232344415441232323">4</characteristic>
-            <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
-            <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
-            <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
-            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
-            <characteristic name="MR" typeId="4d5223232344415441232323"/>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Light Chariot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a416-42f3-d313-cbc6" name="Daemonic" hidden="false" targetId="d1e0-f105-a1fb-69ac" type="rule"/>
-        <infoLink id="962d-64ff-5038-370f" name="Daemon Of Slaanesh" hidden="false" targetId="8b1f-1151-c87b-4c68" type="rule"/>
-        <infoLink id="3c4d-646b-058b-3807" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
-        <infoLink id="5641-b150-b106-dc6f" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="eed1-6653-5072-63b5" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
-        <infoLink id="c388-349a-1d32-a32e" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
-        <infoLink id="4ef5-f163-ab81-d2b6" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
-        <infoLink id="9f54-d68b-bfe2-bcc3" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
-        <infoLink id="efd7-4ff3-d35d-d928" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="04c2-fa36-7d40-c779" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="45cc-9d86-ed44-c243" name="Daemonette Crew" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d1-e712-0280-2527" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd92-d19e-a537-ffc4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="bcef-90ae-928d-09e3" name="Daemonette Crew" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
-                <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
-                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
-                <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
-                <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
-                <characteristic name="LD" typeId="4c4423232344415441232323">7</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                <characteristic name="Type" typeId="5479706523232344415441232323"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="4f22-4a77-819e-8928" name="Piercing Claws" hidden="false" targetId="bd80-98d8-e677-3f1d" type="profile"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry id="59d6-81f5-d101-18e1" name="Steed of Slaanesh" publicationId="5fe9-85b6-a584-6dfe" page="16" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a5-8cec-0245-e7b2" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58da-4fdb-ce88-5357" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5b94-2af6-0516-2401" name="Steed of Slaanesh" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">9</characteristic>
-                <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
-                <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
-                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
-                <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
-                <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
-                <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                <characteristic name="Type" typeId="5479706523232344415441232323">Light Cavalry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1e5-e3e2-4da3-efd7" name="Lord Of Change - Greater Daemon Of Tzeentch" publicationId="4971-02be-cd06-25f9" page="18" hidden="false" collective="false" import="true" type="unit">
@@ -3397,6 +3371,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba1-5838-e901-e858" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4ef3-8210-c74d-59e7" name="Tzeentchian Wand" publicationId="4971-02be-cd06-25f9" page="18" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3428,6 +3405,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c96d-4e49-cc45-7002" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fe77-052a-1216-edc9" name="Level 3 Wizard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3582,6 +3562,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a7-9ca2-2cae-a83e" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="57e8-b4f3-2a9f-318b" name="Daemonic Locus" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -3641,6 +3624,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e734-dc77-2d39-9d37" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1df1-f8e9-21f0-4ca9" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3860,6 +3846,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b6c-857c-fa04-d171" name="Blue Horrors Of Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -3960,6 +3949,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7290-1b35-8124-e243" name="Brimstone Horrors Of Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -4027,6 +4019,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ba31-00e0-f4d0-1511" name="Flamers Of Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -4065,7 +4060,8 @@ In combat, this model must make one of its attacks each turn with this weapon.</
       <selectionEntries>
         <selectionEntry id="8f06-b0ab-22c2-6b8c" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d5-4563-d78a-dd16" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d5-4563-d78a-dd16" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02c5-7103-935f-2b8e" type="max"/>
           </constraints>
           <profiles>
             <profile id="a86e-26f3-7eca-50de" name="Flamer" publicationId="4971-02be-cd06-25f9" page="21" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
@@ -4213,6 +4209,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af79-3bc6-cb80-b04d" type="max"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="9ce6-6b51-5f46-f168" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -4247,6 +4246,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9a1c-963b-e608-c05d" name="Screamers Of Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -4319,6 +4321,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="354a-369b-289c-6533" name="Burning Chariot Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4384,6 +4389,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="f56d-d76e-6ece-4f28" name="Lamprey&apos;s Bite" hidden="false" targetId="7af7-6bbd-27fb-9db6" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a0ed-8753-0c41-e0dc" name="Blue Horror Crew" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4413,6 +4421,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
             <infoLink id="300d-a1ac-e66e-700f" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="0b9e-0ab8-ecda-de97" name="Flames Of Tzeentch" hidden="false" targetId="d4db-250a-a678-54dd" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e8dc-8db3-ff5b-0933" name="Exalted Flamer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4501,6 +4512,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b754-cc46-5df0-7e14" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="2d69-ab99-e15b-b862" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4528,11 +4542,144 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="190.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="cefb-ba87-88cf-2a33" name="Seeker Chariots Of Slaanesh" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2813-0635-75f0-47b7" type="atLeast">
+                  <comment>If Keeper Of Secrets General</comment>
+                </condition>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a243-977e-48cd-7e07" type="atLeast">
+                  <comment>If Herald Of Slaanesh General</comment>
+                </condition>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c806-7a82-cc23-6b94" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="f2ef-b3e4-02b2-0e8b"/>
+            <modifier type="add" field="category" value="f2ef-b3e4-02b2-0e8b"/>
+            <modifier type="unset-primary" field="category" value="41ac-8b29-caf2-1245"/>
+            <modifier type="remove" field="category" value="41ac-8b29-caf2-1245"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <infoLinks>
+        <infoLink id="9738-3bfd-a580-78f2" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
+        <infoLink id="3905-64b6-448d-acd0" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
+        <infoLink id="5217-f291-63db-de6a" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
+        <infoLink id="7852-2f95-34f2-4b8e" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
+        <infoLink id="5006-2a67-1659-43ba" name="Daemonic" hidden="false" targetId="d1e0-f105-a1fb-69ac" type="rule"/>
+        <infoLink id="22fe-2150-8326-7ec5" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
+        <infoLink id="068e-e262-989e-9af2" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
+        <infoLink id="5667-d598-829c-421a" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
+        <infoLink id="38ab-13e6-6f5c-a658" name="Daemon Of Slaanesh" hidden="false" targetId="8b1f-1151-c87b-4c68" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3ad4-6ef4-6b70-caa0" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2649-2f8a-a7f3-adb4" name="Seeker Chariot Of Slaanesh" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b712-5695-b179-e3e5" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cc-9977-10ce-6433" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="26d0-ae8f-9a67-e4b5" name="Seeker Chariot" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">4</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Light Chariot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="4925-387f-6f78-25e2" name="Daemonette Crew" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c19-aa9e-66b4-5aeb" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33e3-5658-2a87-3a8b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1aa2-441f-61b4-be79" name="Daemonette Crew" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                    <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                    <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                    <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                    <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
+                    <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">7</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                    <characteristic name="Type" typeId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b98d-cdad-9777-b65c" name="Piercing Claws" hidden="false" targetId="bd80-98d8-e677-3f1d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d824-1e08-d30e-b992" name="Steed of Slaanesh" publicationId="5fe9-85b6-a584-6dfe" page="16" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b69f-65d9-07ca-4580" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7693-8022-c4be-3542" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6e21-80f2-401e-586e" name="Steed of Slaanesh" publicationId="4971-02be-cd06-25f9" page="17" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">9</characteristic>
+                    <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+                    <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                    <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
+                    <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Light Cavalry</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -4641,6 +4788,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="c6d1-6e50-a37b-e692" name="Hellblade" hidden="false" targetId="f74a-8624-1202-82fd" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4772,6 +4922,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="1757-91e8-0a46-d748" name="Piercing Claws" hidden="false" targetId="bd80-98d8-e677-3f1d" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2a1b-cf3c-f144-34ae" name="Steed of Slaanesh" publicationId="5fe9-85b6-a584-6dfe" page="16" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4797,6 +4950,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4863,6 +5019,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="3545-af69-58cd-07a6" name="Piercing Claws" hidden="false" targetId="bd80-98d8-e677-3f1d" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="48c9-cc49-198c-a9e0" name="Steed of Slaanesh" publicationId="5fe9-85b6-a584-6dfe" page="16" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4888,6 +5047,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4984,6 +5146,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="bef1-6648-0f62-e32a" name="Lamprey&apos;s Bite" hidden="false" targetId="7af7-6bbd-27fb-9db6" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -5051,6 +5216,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <infoLinks>
             <infoLink id="0d9b-e42e-7970-cf21" name="Lamprey&apos;s Bite" hidden="false" targetId="7af7-6bbd-27fb-9db6" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5f00-4435-bb35-8583" name="Blue Horror Crew" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -5080,6 +5248,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
             <infoLink id="7a22-d95c-3c09-45a4" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="939e-5595-64c5-8574" name="Flames Of Tzeentch" hidden="false" targetId="d4db-250a-a678-54dd" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1247-08fa-a48b-67b2" name="Exalted Flamer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -5168,6 +5339,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38cb-1877-30dc-f469" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="7780-793c-f34b-05b2" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -5195,6 +5369,9 @@ In combat, this model must make one of its attacks each turn with this weapon.</
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
