@@ -1784,6 +1784,9 @@ Note that when the Green Knight appears within a natural terrain feature, he mus
         <infoLink id="7673-8e22-2925-2218" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="58e5-7f65-3bc6-9431" name="Unbreakable" hidden="false" targetId="b865-dd35-76f9-6b03" type="rule"/>
         <infoLink id="1da5-ee81-0b01-d399" name="Unstable" hidden="false" targetId="6862-b5bd-2a35-7d9b" type="rule"/>
+        <infoLink id="6f5a-9ca8-fa90-8cc3" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
+        <infoLink id="c1dd-d594-5da4-0c1b" name="Barding" hidden="false" targetId="b15a-0fa5-3b2f-cded" type="profile"/>
+        <infoLink id="2cb3-8227-684d-067f" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a495-c7f9-ef4e-ad62" name="New CategoryLink" hidden="false" targetId="a34a-cb0b-08bf-c571" primary="true"/>
