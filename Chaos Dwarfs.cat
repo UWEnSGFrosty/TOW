@@ -538,6 +538,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="60b7-5851-b325-7220" name="Infernal Guard" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -747,6 +750,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="edaa-b380-5a9c-c809" name="K&apos;daai Fireborn" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -846,6 +852,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3968-01d3-d711-896e" name="Hobgoblin Cutthroats" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -912,6 +921,9 @@ Note that this special rule only applies to non-magical weapons and does not app
                   <infoLinks>
                     <infoLink id="85c2-2129-d34f-ca39" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="6746-0230-a957-2822" name="Shortbow" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -920,6 +932,9 @@ Note that this special rule only applies to non-magical weapons and does not app
                   <infoLinks>
                     <infoLink id="750d-55d2-0a40-dd63" name="Shortbow" hidden="false" targetId="b427-cd03-0f2f-39be" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -978,6 +993,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a9a9-4c44-41dd-3da6" name="Sneaky Gits" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1078,6 +1096,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2957-5351-e335-ba25" name="Hobgoblin Wolf Riders" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1146,6 +1167,9 @@ Note that this special rule only applies to non-magical weapons and does not app
                   <infoLinks>
                     <infoLink id="7e47-e1bf-73dc-4e55" name="Spear (Mounted)" hidden="false" targetId="84dc-19d0-7212-72a9" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="67af-6baf-a776-dfd6" name="Shortbow" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -1241,6 +1265,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b614-80dd-49e3-9577" name="Bull Centaur Renders" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1397,6 +1424,9 @@ Note that this special rule only applies to non-magical weapons and does not app
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be64-aa42-f22b-3a75" name="Iron Daemon" publicationId="e304-bb1c-49c8-ea0e" page="10" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -1481,6 +1511,9 @@ In addition, and unlike other chariots, this model treats low linear obstacles a
           <infoLinks>
             <infoLink id="0805-551d-a6fe-a9d3" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d8c1-10ba-17c9-7550" name="Hellbound" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1526,6 +1559,9 @@ In addition, and unlike other chariots, this model treats low linear obstacles a
 After determining the number of shots, roll To Hit for each as normal, using the crew’s Ballistic Skill and applying all appropriate modifiers. </description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="28fb-a5fc-9373-819f" name="Skullcracker" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1543,6 +1579,9 @@ After determining the number of shots, roll To Hit for each as normal, using the
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="275.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fbb0-bd3f-388d-e962" name="Deathshrieker Rocket Launcher" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2391,6 +2430,9 @@ Note that, for the purposes of this rule, an Orc unit is considered to be any un
               <infoLinks>
                 <infoLink id="6cc4-c18a-b66c-dca4" name="Throwing Weapons" hidden="false" targetId="16f3-6038-e2e3-009e" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9540-f757-12d1-f985" name="Shortbow" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2974,6 +3016,9 @@ Note that, for the purposes of this rule, an Orc unit is considered to be any un
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f9d2-0afd-7a85-a1cc" name="Naptha Bombs" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3162,6 +3207,9 @@ Note that, for the purposes of this rule, an Orc unit is considered to be any un
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3573,6 +3621,9 @@ Note that this special rule only applies to attacks made by a War Boar, not to t
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
