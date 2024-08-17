@@ -4,6 +4,8 @@
     <publication id="5fe9-85b6-a584-6dfe" name="BRB"/>
     <publication id="5cca-edd4-43a8-7719" name="Forces of Fantasy" shortName="FoF"/>
     <publication id="b907-f7a4-2802-2a2e" name="Ravening Hordes" shortName="RH"/>
+    <publication id="e64a-7cb7-c9fa-e1ff" name="Arcane Journal - Orc &amp; Goblin Tribes" shortName="AJ"/>
+    <publication id="fc8a-2372-3e95-7ec6" name="Arcane Journal - Dwarfen Mountain Holds" shortName="AJ"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
@@ -97,7 +99,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="5d98-91ae-42e2-50dc" name="Badlands Ogre Bulls" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5d98-91ae-42e2-50dc" name="Badlands Ogre Bulls" publicationId="e64a-7cb7-c9fa-e1ff" page="40" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="0976-cc9f-e74d-091b" name="Ogre Charge" hidden="false">
           <description>The Armor Piercing characteristic of any Impact Hits caused by a model with this special rule is improved by the current Rank Bonus of its unit.</description>
@@ -115,12 +117,12 @@
         <categoryLink id="f484-1823-79af-573d" name="New CategoryLink" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2bdd-9c82-0965-3d2a" name="Ogre" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2bdd-9c82-0965-3d2a" name="Ogre" publicationId="e64a-7cb7-c9fa-e1ff" page="40" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad26-5456-23f8-97c4" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d20f-5a38-cfc1-bffc" name="Ogre" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+            <profile id="d20f-5a38-cfc1-bffc" name="Ogre" publicationId="e64a-7cb7-c9fa-e1ff" page="40" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -273,7 +275,7 @@ A model equipped with an Ironfist improves its armor value by 1.</characteristic
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="3380-f966-0143-a3b3" name="Bonegrinder Giant" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3380-f966-0143-a3b3" name="Bonegrinder Giant" publicationId="e64a-7cb7-c9fa-e1ff" page="42" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3048-5c55-529a-9a68" type="max"/>
       </constraints>
@@ -1134,15 +1136,31 @@ Note that this is a modifier to the result of a roll - it does not negate a roll
     <rule id="9fb9-9cdd-3abe-7604" name="Fight in Extra Rank" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
     <rule id="e058-98b8-2527-5145" name="Flaming Attacks" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
     <rule id="8e5f-d768-0170-b1ed" name="Flammable" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
-    <rule id="b08c-8d83-b803-0bff" name="Fly (X)" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false"/>
+    <rule id="b08c-8d83-b803-0bff" name="Fly (X)" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false">
+      <description> A model with this special rule can Fly. Models that can Fly can choose either to move normally on the ground (using their Movement characteristic), or to move by flying. How many inches a model can Fly varies from model to model, and will be shown in brackets after the name of this special rule (shown here as ‘X’). Models that choose to move by flying:
+
+* May move as normal(i.e., they may charge, march and manoeuvre as if moving on the ground), except that they are able to pass freely above other models, units and terrain features without any penalty, and they can march whilst within 8&quot; of an enemy unit without first having to make a Leadership test.
+
+* May end their movement in terrain, but will suffer its effects if they do. They cannot end their movement ‘on top’ of impassable terrain or another unit, or within 1&quot; of an enemy unit.
+
+Models that can Fly must begin and end all of their movement on the ground. A character with this special rule cannot join a unit without this special rule, and vice versa.</description>
+    </rule>
     <rule id="ead9-2400-fd8e-2138" name="Frenzy" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false"/>
-    <rule id="b8bc-ae1f-eee4-896c" name="Hatred (X)" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
+    <rule id="b8bc-ae1f-eee4-896c" name="Hatred (X)" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false">
+      <description>A model with this special rule may re-roll any failed rolls To Hit made against a hated enemy during the first round of combat.
+
+Which enemies are hated varies from model to model and will be shown in brackets after the name of the special rule (shown here as &apos;X&apos;). Some models hate &apos;all enemies&apos;, meaning they hate all enemy models equally.</description>
+    </rule>
     <rule id="1a46-bc9a-b027-4ed1" name="Ignores Cover" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
     <rule id="8de9-e265-8e60-3456" name="Immune to Psychology" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
     <rule id="3de4-6e3c-074a-f210" name="Impact Hits (X)" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
     <rule id="f476-ed24-c451-6e04" name="Killing Blow" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
     <rule id="5982-ec1f-c586-6d66" name="Large Target" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
-    <rule id="b499-4a5b-20aa-9996" name="Magic Resistance (-X)" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false"/>
+    <rule id="b499-4a5b-20aa-9996" name="Magic Resistance (-X)" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false">
+      <description>The Casting roll of any enemy spell (including Bound spells) that targets a unit that includes one or more models with this special rule suffers a modifier, as shown in brackets after the name of this special rule (shown here as &apos;-X&apos;).
+
+Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.</description>
+    </rule>
     <rule id="7bd1-d43f-b7dc-7756" name="Move Or Fire" publicationId="5fe9-85b6-a584-6dfe" page="174" hidden="false"/>
     <rule id="c987-b518-af0a-fee8" name="Multiple Shots (X)" publicationId="5fe9-85b6-a584-6dfe" page="174" hidden="false"/>
     <rule id="adf6-fb60-e691-631b" name="Multiple Wounds (X)" publicationId="5fe9-85b6-a584-6dfe" page="175" hidden="false"/>
@@ -1150,7 +1168,11 @@ Note that this is a modifier to the result of a roll - it does not negate a roll
     <rule id="ab66-9873-4ec1-170d" name="Quick Shot" publicationId="5fe9-85b6-a584-6dfe" page="175" hidden="false"/>
     <rule id="30f2-5b25-ff31-1d16" name="Random Attacks" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
     <rule id="2350-1f58-f63e-d9d9" name="Random Movement" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
-    <rule id="35a1-5ffe-0442-fe71" name="Regeneration (X+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
+    <rule id="35a1-5ffe-0442-fe71" name="Regeneration (X+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
+      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of a Regeneration save is shown in brackets after the name of this special rule (shown here as ‘X+’). A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
+
+ Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+    </rule>
     <rule id="6b56-7fce-2665-ab30" name="Requires Two Hands" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
     <rule id="2ef8-58ca-2897-9630" name="Skirmishers" publicationId="5fe9-85b6-a584-6dfe" page="177" hidden="false"/>
     <rule id="f765-018b-b3d7-de34" name="Stomp Attacks (X)" publicationId="5fe9-85b6-a584-6dfe" page="177" hidden="false"/>
@@ -1208,6 +1230,56 @@ Note that a Break test is not a Leadership test.</description>
     </rule>
     <rule id="1cb5-acb0-e56f-32f9" name="Warband" publicationId="5fe9-85b6-a584-6dfe" page="180" hidden="false"/>
     <rule id="2b25-d81f-4b59-ac6f" name="Warp-spawned" publicationId="5fe9-85b6-a584-6dfe" page="180" hidden="false"/>
+    <rule id="09f6-ba0a-b9d9-1ec1" name="Hatred (Orcs &amp; Goblins)" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false">
+      <description>A model with this special rule may re-roll any failed rolls To Hit made against any unit from the Orc &amp; Goblin Tribes during the first round of combat.</description>
+    </rule>
+    <rule id="a872-7683-08ff-1fe2" name="Magic Resistance (-1)" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false">
+      <description>The Casting roll of any enemy spell (including Bound spells) that targets a unit that includes one or more models with this special rule suffers a -1 modifier to their casting roll.
+
+Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.</description>
+    </rule>
+    <rule id="32e6-fa14-a93c-aa3d" name="Magic Resistance (-2)" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false">
+      <description>The Casting roll of any enemy spell (including Bound spells) that targets a unit that includes one or more models with this special rule suffers a -2 modifier to their casting roll.
+
+Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.</description>
+    </rule>
+    <rule id="8b64-3d84-4142-d1c5" name="Magic Resistance (-3)" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false">
+      <description>The Casting roll of any enemy spell (including Bound spells) that targets a unit that includes one or more models with this special rule suffers a -3 modifier to their casting roll.
+
+Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.</description>
+    </rule>
+    <rule id="d803-3575-3b4e-dfe7" name="Fly (10)" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false">
+      <description> A model with this special rule can Fly. Models that can Fly can choose either to move normally on the ground (using their Movement characteristic), or to move by flying. This model can fly 10&quot; by flying. Models that choose to move by flying:
+
+* May move as normal(i.e., they may charge, march and manoeuvre as if moving on the ground), except that they are able to pass freely above other models, units and terrain features without any penalty, and they can march whilst within 8&quot; of an enemy unit without first having to make a Leadership test.
+
+* May end their movement in terrain, but will suffer its effects if they do. They cannot end their movement ‘on top’ of impassable terrain or another unit, or within 1&quot; of an enemy unit.
+
+Models that can Fly must begin and end all of their movement on the ground. A character with this special rule cannot join a unit without this special rule, and vice versa.</description>
+    </rule>
+    <rule id="1e61-ce0c-b9d1-1309" name="Hatred (all enemies)" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false">
+      <description>A model with this special rule may re-roll any failed rolls To Hit made against any enemy during the first round of combat.</description>
+    </rule>
+    <rule id="2fc7-ae54-b7b6-a3a1" name="Regeneration (4+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
+      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 4+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
+
+ Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+    </rule>
+    <rule id="6917-6443-03f5-2f38" name="Regeneration (5+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
+      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 5+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
+
+ Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+    </rule>
+    <rule id="4e38-fb85-b662-4944" name="Regeneration (3+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
+      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 3+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
+
+ Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+    </rule>
+    <rule id="4ab6-406d-e6ba-c3a0" name="Regeneration (6+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
+      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 6+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
+
+ Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="b15a-0fa5-3b2f-cded" name="Barding" publicationId="5fe9-85b6-a584-6dfe" page="221" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">

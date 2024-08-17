@@ -96,7 +96,7 @@
         <infoLink id="d170-2ca5-24e6-b2f6" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
         <infoLink id="22f2-0961-14ef-db92" name="Kopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="5054-8e0a-83c0-07df" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="f94c-9bbf-9acb-fc27" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="f94c-9bbf-9acb-fc27" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="608d-67b3-2b9c-e1f4" name="New CategoryLink" hidden="false" targetId="a34a-cb0b-08bf-c571" primary="true"/>
@@ -127,7 +127,7 @@
       <infoLinks>
         <infoLink id="d132-8694-5d75-5032" name="Cleaving Blow" hidden="false" targetId="44d8-b48c-18b3-c761" type="rule"/>
         <infoLink id="9299-c6c8-23e9-16a7" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
-        <infoLink id="75bf-999b-29cc-8d97" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="75bf-999b-29cc-8d97" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="3b00-b092-917d-a0f4" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="1caf-2860-3152-1503" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="2410-65e8-f562-b801" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
@@ -311,7 +311,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="85d0-c1cf-6a9e-5c61" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
-        <infoLink id="ba6c-24e4-cb6e-965b" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="ba6c-24e4-cb6e-965b" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="a713-11ca-943c-3795" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="d787-23b8-06fb-2463" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
         <infoLink id="d65c-5ce8-5c7f-bf1d" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
@@ -473,7 +473,7 @@
     <selectionEntry id="bc30-9c45-a6eb-56a9" name="Skeleton Archers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="420e-23f3-830b-aae9" name="Detatchment" hidden="false" targetId="928c-ba0d-2e38-2713" type="rule"/>
-        <infoLink id="a469-2f19-9922-1be8" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="a469-2f19-9922-1be8" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="7c91-ce70-d87d-edb9" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="8fb7-66fc-adf4-e2a4" name="Arrows of Asaph" hidden="false" targetId="e735-d2c8-1d7b-03db" type="rule"/>
         <infoLink id="0e90-22be-14e5-cf9c" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
@@ -613,7 +613,7 @@
       </modifiers>
       <infoLinks>
         <infoLink id="2cc0-3f9e-598e-ee89" name="Chariot Runners" hidden="false" targetId="1839-bec3-2e68-c3e0" type="rule"/>
-        <infoLink id="628b-479b-c3d4-6093" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="628b-479b-c3d4-6093" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="ab49-ad76-7479-7469" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="9701-71ef-729d-00ef" name="Arrows of Asaph" hidden="false" targetId="e735-d2c8-1d7b-03db" type="rule"/>
         <infoLink id="833c-b2aa-6c70-d83a" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
@@ -707,7 +707,7 @@
       <comment>Special</comment>
       <infoLinks>
         <infoLink id="84c1-950f-1a54-630e" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
-        <infoLink id="6ce3-04e6-f60f-fbf4" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="6ce3-04e6-f60f-fbf4" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="62fd-4aef-491e-3fae" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="0708-5e3b-15f4-485e" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="a65d-bd11-db36-4413" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
@@ -826,7 +826,7 @@
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c09-c762-e6ef-0d0b" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="a659-be78-1f1f-db31" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="a659-be78-1f1f-db31" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="76c7-ce8e-93a9-d307" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="5eee-5dac-a76f-5841" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
         <infoLink id="afb0-7467-ffd5-f49c" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
@@ -894,11 +894,11 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="fc08-0f15-3064-8c2d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="fc08-0f15-3064-8c2d" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="9358-2b8a-5622-faa9" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="6fdd-aa3f-7f66-b633" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="bf35-763c-450e-a457" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
-        <infoLink id="2194-1074-03d5-c6bb" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
+        <infoLink id="2194-1074-03d5-c6bb" name="Fly (10)" hidden="false" targetId="d803-3575-3b4e-dfe7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="601c-e7fc-0613-8d93" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -949,7 +949,7 @@
       </modifiers>
       <infoLinks>
         <infoLink id="86e7-23a8-95db-fe85" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="efce-94a2-ba52-a69a" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="efce-94a2-ba52-a69a" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="3d58-3f46-6390-9d56" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="5e8a-af4e-e3c7-f583" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
         <infoLink id="601e-4c6c-5421-1201" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
@@ -1120,7 +1120,7 @@
       </modifiers>
       <infoLinks>
         <infoLink id="ee7b-a8b4-3ace-67ea" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="8678-dd15-d43b-ce76" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="8678-dd15-d43b-ce76" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="d692-c0b7-9747-b4a5" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="5f22-6fca-00a2-d9a0" name="Arrows of Asaph" hidden="false" targetId="e735-d2c8-1d7b-03db" type="rule"/>
         <infoLink id="cc45-d5cf-1f77-6d74" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
@@ -1251,7 +1251,7 @@
     <selectionEntry id="b637-7a3b-4d7e-26a4" name="Necropolis Knights" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fc61-ed76-1104-d5ff" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="df63-eec0-a839-bed0" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="df63-eec0-a839-bed0" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="7909-f377-9d33-e35f" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="48c6-0af5-ee23-e6f8" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="80f0-0974-3421-4654" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
@@ -1399,7 +1399,7 @@
       </modifiers>
       <infoLinks>
         <infoLink id="9e90-11f9-0d68-4b78" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="66af-c63c-3cd1-d912" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="66af-c63c-3cd1-d912" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="606e-4d08-71c6-9c1a" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="d752-21eb-42e4-3ffc" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="442b-70ed-370c-a52c" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
@@ -1500,7 +1500,7 @@ When making a To Wound for an attack made with this weapon, substitute the targe
         <infoLink id="465b-e910-33e8-5f1a" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="933a-fa66-ddde-e556" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="a503-a307-0c3e-139d" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
-        <infoLink id="388b-a499-4f12-fe83" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="388b-a499-4f12-fe83" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="aa05-68c8-02d6-7b11" name="Reserve Move" hidden="false" targetId="76d1-3f46-bfa6-0f03" type="rule"/>
         <infoLink id="10d1-f38a-b6cb-fa00" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
@@ -1719,7 +1719,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="af9c-d53f-acfb-aea6" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="45f7-48c7-2421-2c02" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
         <infoLink id="164a-5e49-2c59-4466" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="e9a7-97d2-2666-0f0f" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="e9a7-97d2-2666-0f0f" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="1717-4272-b1d6-ef13" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="9e96-1893-e431-8ef6" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="576d-d6c5-a271-880a" name="Vanguard" hidden="false" targetId="351f-9b6f-6ee0-85b2" type="rule"/>
@@ -1791,7 +1791,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="e7bb-ace1-372b-3107" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="0a17-fc18-9f11-3a13" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="4088-e7c6-3e41-5659" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="b8f5-7315-e0b6-6b72" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="b8f5-7315-e0b6-6b72" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="1593-ab23-74f8-0577" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="26b2-b89a-4c6f-4385" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="71df-8ed2-1b9c-02f1" name="Timmm-berrr!" hidden="false" targetId="45bb-e5cf-8c9b-cf1a" type="rule"/>
@@ -1860,7 +1860,7 @@ This model may make one additional attack each turn with this weapon.</character
         <infoLink id="c9ca-570b-c12d-c1b2" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="d193-a1d5-0387-ae01" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="6150-9356-cb9c-0dd6" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="ad3f-d131-9de9-bcbd" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="ad3f-d131-9de9-bcbd" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="3bab-7819-f20a-62b0" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="c6ca-1eca-3d6d-0551" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="de46-4047-8024-73ff" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
@@ -1960,7 +1960,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="b869-0e1c-786b-4e80" name="Dry as Dust" hidden="false" targetId="bb50-eea4-e113-df6c" type="rule"/>
         <infoLink id="9d54-e2ac-14fa-48e2" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="3bfb-4796-017e-fb71" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="398b-eb28-f463-e723" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="398b-eb28-f463-e723" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="1b46-bdfe-e716-c3a2" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2061,7 +2061,7 @@ Note, however, that this bonus does not apply to any Bound spells cast by a Cask
         <infoLink id="55e8-10c9-27c5-ab03" name="Dry as Dust" hidden="false" targetId="bb50-eea4-e113-df6c" type="rule"/>
         <infoLink id="13df-a8e7-99c6-22ac" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="eae3-89e7-b7c8-0c66" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="dad9-ad8d-67f1-d9dd" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="dad9-ad8d-67f1-d9dd" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="747b-a1e0-6b01-b763" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2130,7 +2130,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="f8c4-8503-bada-2d38" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="67ee-1978-7cd3-f446" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="2a69-1140-28ca-7bef" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="52de-384b-e5f8-4bb2" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="52de-384b-e5f8-4bb2" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="a319-6f32-bbd1-2fc7" name="Curse of the Necropolis" hidden="false" targetId="3929-6fde-c336-7e2e" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2394,7 +2394,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="24d1-9611-ab09-9ba5" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="363e-a82c-23ca-df82" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="2d6c-6b00-3ad9-e498" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="33fc-9abb-9f98-9f08" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="33fc-9abb-9f98-9f08" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="5765-65c4-4cb8-0ffa" name="Curse of the Necropolis" hidden="false" targetId="3929-6fde-c336-7e2e" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2656,7 +2656,7 @@ For example: Your army’s Hierophant is destroyed during your opponent’s Shoo
         <infoLink id="cae6-ad70-ebad-500c" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="7334-38a1-22ef-763a" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="baeb-3242-0bc1-090c" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="db76-1722-df17-7768" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="db76-1722-df17-7768" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="a353-4a14-9fbc-0f07" name="Curse of the Necropolis" hidden="false" targetId="3929-6fde-c336-7e2e" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2837,7 +2837,7 @@ For example: Your army’s Hierophant is destroyed during your opponent’s Shoo
         <infoLink id="e29c-770a-c250-8015" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="5d5c-772a-a371-ae68" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="5703-821b-e79f-116b" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="a32d-c14a-1c3e-eb83" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="a32d-c14a-1c3e-eb83" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="c942-8147-7a66-c5d4" name="Curse of the Necropolis" hidden="false" targetId="3929-6fde-c336-7e2e" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3012,7 +3012,7 @@ Note that this is not cumulative with the Indomitable (X) special rule. If a uni
         <infoLink id="053c-ac43-b2e0-fe6a" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="3135-10a1-641d-04c4" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="cef9-584d-cd83-6a0c" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="375b-abe7-6280-c88d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="375b-abe7-6280-c88d" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8d92-3145-1576-6490" name="New CategoryLink" hidden="false" targetId="a34a-cb0b-08bf-c571" primary="true"/>
@@ -3175,7 +3175,7 @@ Note that this is not cumulative with the Indomitable (X) special rule. If a uni
       <infoLinks>
         <infoLink id="163f-b8cb-17d3-2c66" name="Cleaving Blow" hidden="false" targetId="44d8-b48c-18b3-c761" type="rule"/>
         <infoLink id="7fbf-a494-c123-ef16" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
-        <infoLink id="0ead-7c6c-7d96-ab69" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="0ead-7c6c-7d96-ab69" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="301b-12d9-a7ec-fd85" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="572f-5cfd-7ccb-2fc1" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="94c9-c940-4002-5ddb" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
@@ -3360,7 +3360,7 @@ Note that this is not cumulative with the Indomitable (X) special rule. If a uni
       </constraints>
       <infoLinks>
         <infoLink id="3268-ec27-412c-d5a9" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="37ae-de06-a715-a75b" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="37ae-de06-a715-a75b" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="7901-5f1e-32ea-7473" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="8f53-6d47-c3ef-7fd3" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="ba0a-f0a6-989d-7e35" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
@@ -3486,7 +3486,7 @@ When making a roll To Wound with this weapon, a roll of 4+ is always a success, 
         <infoLink id="c6a1-168c-b1be-8fa2" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="1b4a-7cce-5539-168b" name="Loner" hidden="false" targetId="ef04-7de6-1298-9ae4" type="rule"/>
         <infoLink id="079e-9f2b-3d55-d607" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="d3bb-eacb-0884-0a9d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="d3bb-eacb-0884-0a9d" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="da83-a123-a3cd-21fb" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="44b4-e25c-d785-bced" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
         <infoLink id="9181-18ba-b9ed-97be" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
@@ -3555,7 +3555,7 @@ The Flail of Conquered Kings&apos; Strength modifier applies only during the fir
         <infoLink id="49c6-0a0c-b015-ae85" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="ef7e-3297-c56f-d268" name="Killing Blow" hidden="false" targetId="f476-ed24-c451-6e04" type="rule"/>
         <infoLink id="16ba-ae4d-6c9c-33ae" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="b8be-f9df-ee7a-2414" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="b8be-f9df-ee7a-2414" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="9009-32e5-eb7e-4b08" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -3675,7 +3675,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
       <infoLinks>
         <infoLink id="3f40-a42a-beae-6b9a" name="Curse of the Necropolis" hidden="false" targetId="3929-6fde-c336-7e2e" type="rule"/>
         <infoLink id="bbfb-e7f1-3ff6-082a" name="Dry as Dust" hidden="false" targetId="bb50-eea4-e113-df6c" type="rule"/>
-        <infoLink id="b895-7215-1934-c7a0" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="b895-7215-1934-c7a0" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="a632-0006-2012-2193" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="e48a-9114-fc48-599e" name="Lore Of Nehekhara" hidden="false" targetId="d665-2e1b-c1d0-2491" type="rule"/>
         <infoLink id="6a7d-b526-7c4f-9991" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
@@ -3713,6 +3713,9 @@ Note that this special rule is not cumulative. In other words, using it more tha
           <infoLinks>
             <infoLink id="2ca7-7acc-33b7-7b11" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3812,7 +3815,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="7157-db3f-b26d-10ae" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
         <infoLink id="a9ae-5147-2ac6-0785" name="Kopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="2a47-c7c3-ea38-dc9c" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="3e60-18b9-91df-105a" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="3e60-18b9-91df-105a" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f2a0-58f7-ffa1-7d87" name="New CategoryLink" hidden="false" targetId="a34a-cb0b-08bf-c571" primary="true"/>
@@ -3848,7 +3851,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
       </modifiers>
       <infoLinks>
         <infoLink id="9e29-daea-f50b-5a35" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
-        <infoLink id="a23f-03c3-91f5-328f" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="a23f-03c3-91f5-328f" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="0501-e4c1-5d37-2574" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="9afb-ad24-1895-3210" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="842c-d3b1-67be-a525" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
@@ -3940,7 +3943,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
       </modifiers>
       <infoLinks>
         <infoLink id="2505-615f-a1e5-a5cc" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="4c0e-0aff-2285-416b" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="4c0e-0aff-2285-416b" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="b981-154d-c49c-a515" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="9416-dcdc-7ce2-3327" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="c11e-2124-9a9e-1e6c" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
@@ -4028,7 +4031,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="dca7-5e3c-44e1-4c01" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="deb6-3d4f-c5f3-bb26" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="4c9a-f0fe-2eeb-1ded" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
-        <infoLink id="20b0-ea52-c224-dad9" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="20b0-ea52-c224-dad9" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="1d32-7d3b-aee2-5544" name="Reserve Move" hidden="false" targetId="76d1-3f46-bfa6-0f03" type="rule"/>
         <infoLink id="838e-5f7d-e47e-618b" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="7e74-99cd-1027-c790" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
@@ -4199,7 +4202,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="c612-0498-b525-3bdf" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="dbf4-9f38-866e-46e2" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="235c-6f50-897a-3245" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
-        <infoLink id="0038-9751-b688-0240" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="0038-9751-b688-0240" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="1cab-49ef-06f5-7b8f" name="Reserve Move" hidden="false" targetId="76d1-3f46-bfa6-0f03" type="rule"/>
         <infoLink id="a54f-7f70-7931-b1be" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="bfaf-9320-ddaa-d6fe" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
@@ -4365,7 +4368,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
       </modifiers>
       <infoLinks>
         <infoLink id="ae4f-5991-180e-76b9" name="Chariot Runners" hidden="false" targetId="1839-bec3-2e68-c3e0" type="rule"/>
-        <infoLink id="5450-1285-fd7d-c9f1" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="5450-1285-fd7d-c9f1" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="dff7-6e94-c1ba-8b5b" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="6ec5-eac0-f473-af06" name="Arrows of Asaph" hidden="false" targetId="e735-d2c8-1d7b-03db" type="rule"/>
         <infoLink id="a60d-d861-37bc-b8e9" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
@@ -4466,7 +4469,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
       </modifiers>
       <infoLinks>
         <infoLink id="91cc-8dfe-1aaf-acf9" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="66b7-2605-5eb5-d89e" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="66b7-2605-5eb5-d89e" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="44d8-05b3-3bd3-9d2e" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="f37c-6fcf-93b2-1c3e" name="Arrows of Asaph" hidden="false" targetId="e735-d2c8-1d7b-03db" type="rule"/>
         <infoLink id="7152-6f4f-a66d-6080" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
@@ -4616,6 +4619,9 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2a-dfaa-8be9-9fac" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842f-d533-c25f-7bfd" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="48f6-bf63-2651-6c4b" name="Skeleton Infantry Cohort" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4636,7 +4642,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="dc96-2d05-4453-eb6b" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
         <infoLink id="1db1-5e34-3459-8893" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
         <infoLink id="7af2-80d6-8e5e-e6c2" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="5de5-4a37-b694-5cd2" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="5de5-4a37-b694-5cd2" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="b262-3d1a-c32c-88d4" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -4793,6 +4799,9 @@ Note that this special rule is not cumulative. In other words, using it more tha
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4a77-b1aa-faff-7559" name="Skeleton Cavalry Cohort" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4813,7 +4822,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
         <infoLink id="603d-54f7-a468-6830" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
         <infoLink id="652e-1b93-0458-ea49" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
         <infoLink id="a3e8-b373-7939-b3b5" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="7a34-c1f5-61a4-d06c" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="7a34-c1f5-61a4-d06c" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="d16b-f302-d976-72f3" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="cd35-1a31-a3cd-83b6" name="Vanguard" hidden="false" targetId="351f-9b6f-6ee0-85b2" type="rule"/>
         <infoLink id="6ef1-2ae9-69bf-e299" name="Skeletal Steed" hidden="false" targetId="c15b-7fed-0465-ee8f" type="profile"/>
@@ -4903,6 +4912,9 @@ Note that this special rule is not cumulative. In other words, using it more tha
           <infoLinks>
             <infoLink id="667d-9854-f95b-3559" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4978,6 +4990,9 @@ Note that this special rule is not cumulative. In other words, using it more tha
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1312-4b4a-35cc-9c24" name="Tomb Scorpion" publicationId="b907-f7a4-2802-2a2e" page="144" hidden="true" collective="false" import="true" type="unit">
       <comment>Mortuary Cult</comment>
@@ -5038,7 +5053,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="8e3d-a7b0-175a-4450" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="56fb-c9fb-da96-322a" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
         <infoLink id="5d60-deb2-82d2-dd81" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="ba75-4588-9e5c-d4d2" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="ba75-4588-9e5c-d4d2" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="0eb2-a131-b23b-0800" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="9744-35ea-adf7-3b67" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="4114-0839-ab68-71be" name="Vanguard" hidden="false" targetId="351f-9b6f-6ee0-85b2" type="rule"/>
@@ -5091,7 +5106,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
       </constraints>
       <infoLinks>
         <infoLink id="7cae-05c5-8489-26f7" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
-        <infoLink id="88d6-1f4b-848f-29f3" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="88d6-1f4b-848f-29f3" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="fb37-ed16-cf53-0155" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="666f-b005-c489-4f56" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="fa7e-856d-fc5e-4a92" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
@@ -5169,7 +5184,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
       </constraints>
       <infoLinks>
         <infoLink id="9a34-23f1-7614-1cd9" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
-        <infoLink id="a2c9-1aae-f3ba-2ba5" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="a2c9-1aae-f3ba-2ba5" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="09fb-594a-adfa-fd8d" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="308c-d6e1-ec63-849d" name="Indomitable (1)" hidden="false" targetId="1ea8-be55-35ea-247a" type="rule"/>
         <infoLink id="ed0f-7665-8c5b-cbe5" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
@@ -5280,7 +5295,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="64b5-ed6b-625e-1e14" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="64b5-ed6b-625e-1e14" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="bd83-19b5-fae3-fd5c" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="5bbf-edea-b7e7-b445" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
         <infoLink id="979b-0588-b874-8088" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
@@ -5355,7 +5370,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="bc55-d8eb-2d33-99a0" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="e7b3-1490-46c6-593c" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
         <infoLink id="8d25-8aca-5c96-b6da" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
-        <infoLink id="f1c9-11a1-ea54-05b6" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="f1c9-11a1-ea54-05b6" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="2fdb-33f2-e998-4dab" name="Reserve Move" hidden="false" targetId="76d1-3f46-bfa6-0f03" type="rule"/>
         <infoLink id="c421-cba3-8cd4-5f77" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
@@ -5572,7 +5587,7 @@ This model may make one additional attack each turn with this weapon.</character
         <infoLink id="a614-4e4d-7ef0-ef44" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="478e-3b5b-ca25-e6e8" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="dffe-276f-09ad-5364" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="8e29-a147-3fee-749e" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="8e29-a147-3fee-749e" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="a46e-92a1-6b7e-99e9" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="ea4c-507b-d043-057a" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="9db3-a60c-c09a-1b0d" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
@@ -5662,7 +5677,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="209a-03da-0fd9-c0ba" name="Indomitable (2)" hidden="false" targetId="f953-ef1a-6391-10e6" type="rule"/>
         <infoLink id="7af5-112c-4434-255c" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="00aa-458f-9489-5660" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="b692-fd4c-992c-e1a2" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="b692-fd4c-992c-e1a2" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="4807-e76d-d81b-7237" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="9d03-3798-322b-00d2" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="d099-9971-4189-67ac" name="Timmm-berrr!" hidden="false" targetId="45bb-e5cf-8c9b-cf1a" type="rule"/>
@@ -5775,7 +5790,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="8a4b-fdfc-3112-d185" name="Khopesh" hidden="false" targetId="6d4e-3561-d041-e7fe" type="rule"/>
         <infoLink id="c284-cdb2-f15c-8199" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="6c9e-59cb-a480-9de7" name="Nehekharan Undead" hidden="false" targetId="4997-aa8a-732e-b8be" type="rule"/>
-        <infoLink id="1005-f470-7a9a-28f9" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="1005-f470-7a9a-28f9" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="f3f9-5c83-55fc-3c36" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="1a60-a21f-d1b1-0259" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
       </infoLinks>
@@ -6415,6 +6430,10 @@ Models whose troop type is &apos;infantry&apos; only. Phakth&apos;s Blades of Ju
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="3895-d425-aec7-898e" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
+        <infoLink id="3a30-4cff-a02a-81da" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>

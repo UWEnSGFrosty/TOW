@@ -4463,6 +4463,652 @@ Note also that the effects of these Prayers on friendly units are not cumulative
         <cost name="pts" typeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="47ca-77b4-e301-c8ee" name="Doomseeker" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe2e-4bcf-185d-5c6c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="69bf-4585-9085-adf8" name="Doomseeker" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">2D3</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry (character)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="da3c-0c47-c3ea-bdd8" name="Deathblow" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
+          <description>When a model with this special rule is reduced to zero Wounds by an enemy attack during the Combat phase, the unit that made the attack suffers a Strength 3 hit, with an AP of -1.</description>
+        </rule>
+        <rule id="4b05-7962-7ef7-2fd8" name="Whirlwind of Death" publicationId="fc8a-2372-3e95-7ec6" hidden="false">
+          <description>Impact Hits caused by this model are resolved using the profile of its whirling blades of death. In addition, when this model makes a roll To Wound, a roll of 4+ is always a success, regardless of the target&apos;s Toughness.</description>
+        </rule>
+        <rule id="ccd8-0c79-8a0f-378f" name="First To The Fray" publicationId="fc8a-2372-3e95-7ec6" hidden="false">
+          <description>This model increases its maximum possible charge range by 3&quot; and, when it makes a Charge roll, may apply a +D3 modifier to the result.</description>
+        </rule>
+        <rule id="5313-0efd-2a12-10ff" name="Doomseeker" publicationId="fc8a-2372-3e95-7ec6" hidden="false">
+          <description>At the end of the battle, a Doomseeker that has been slain is wirth no Victory Points. However, if a Doomseeker is still alive, the enemy player wins a bonus number of Victory Points equal to 100% of its points cost.</description>
+        </rule>
+        <rule id="3fed-cf2c-96e0-981e" name="Gromril Weapons" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
+          <description>A hand weapon carried by a model with this special rule has an Armor Piercing characteristic of -1.</description>
+        </rule>
+        <rule id="999e-41c1-caa2-61df" name="Resolute" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
+          <description>Models with this special rule suffer a -1 modifier to the result of any Flee roll or Pursuit roll they make (to a minimum of 1).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4e15-c2ba-b06d-2ccd" name="Hatred (Orcs &amp; Goblins)" hidden="false" targetId="09f6-ba0a-b9d9-1ec1" type="rule"/>
+        <infoLink id="9fa3-9110-81e8-8014" name="Immune to Psychology" hidden="false" targetId="8de9-e265-8e60-3456" type="rule"/>
+        <infoLink id="9376-297a-fb52-1ae3" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
+        <infoLink id="96d4-7183-42e7-3cad" name="Loner" hidden="false" targetId="ef04-7de6-1298-9ae4" type="rule"/>
+        <infoLink id="223d-08aa-e567-7646" name="Magic Resistance (-2)" hidden="false" targetId="32e6-fa14-a93c-aa3d" type="rule"/>
+        <infoLink id="c5fb-58fa-f4a2-5567" name="Random Attacks" hidden="false" targetId="30f2-5b25-ff31-1d16" type="rule"/>
+        <infoLink id="2296-9e48-1fbc-e4f7" name="Unbreakable" hidden="false" targetId="b865-dd35-76f9-6b03" type="rule"/>
+        <infoLink id="fd69-0282-e688-4df7" name="Vanguard" hidden="false" targetId="351f-9b6f-6ee0-85b2" type="rule"/>
+        <infoLink id="0e30-c178-d335-541f" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ba85-9e5f-d699-7fb6" name="New CategoryLink" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a8ad-ac7a-6eea-a2d2" name="Runic Tattoos" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c942-1604-e511-0962" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fd2a-ad21-9de4-cfb1" name="Rune Of Blazing Fury" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d904-fc46-840b-0060" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="57f9-d3da-635e-790c" name="Rune Of Blazing Fury" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo has the Flaming Attacks special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="52c9-8e63-87c1-bd9c" name="Flaming Attacks" hidden="false" targetId="e058-98b8-2527-5145" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f5a9-815e-949e-9b12" name="Rune Of Endless Battle" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c5-0cf0-266d-914e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ceb4-aaf1-7919-9168" name="Rune Of Endless Battle" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">During the Combat phase of any turn in which a model with this runic tattoo charged, every attack it makes that causes an unsaved wound allows it to immediately make one additional attack.
+
+Note that any additional attacks that cause unsaved wounds and any unsaved wounds caused by the Impact Hits (X) special rule do not benefit from this special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3aa8-e449-b3cb-de3a" name="Rune Of Grit" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d2-8a59-435f-0fed" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="fabd-8406-a296-feaa" name="Rune Of Grit" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo has a +1 modifier to its Toughness characteristic.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8267-ea3b-407b-dda2" name="Rune Of The Dauntless" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2be6-c9cd-b41c-1b69" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="78aa-4f9a-cfb1-c8a6" name="Rune Of The Dauntless" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo must always issue and accept challenges (if possible). During a challenge, this model may re-roll any failed rolls To Hit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4e4f-42e3-4617-bf23" name="Rune Of The Hateful" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057e-d089-b2e1-8b57" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="00e1-cb2a-d125-05f6" name="Rune Of The Hateful" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo gains the Hatred(all enemies) special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e836-9f52-4e1d-83ec" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f9c3-7b81-d484-c626" name="Rune Of The Reckless" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a3-30ad-fb27-3130" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6891-6c95-9df5-f42f" name="Rune Of The Reckless" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo gains the Frenzy special rule and, during the Combat phase, has a +1 modifier to their rolls To Hit. However, enemy models that target this model during the Combat phase also have a +1 modifier to their rolls To Hit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0437-6ab8-abe0-602c" name="Frenzy" hidden="false" targetId="ead9-2400-fd8e-2138" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0a00-8eaf-96e3-d1af" name="Rune Of Wrath" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8119-79d4-b4e1-d7de" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9d0e-ba0e-0238-2be1" name="Rune Of Wrath" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo has a +1 modifier to its Attacks characteristic.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9666-bf9e-bfd0-195a" name="Warrior&apos;s Rune" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a19-26c0-607d-0bab" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ad19-cf98-9324-7be9" name="Warrior&apos;s Rune" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+                  <characteristics>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A model with this runic tattoo has a +1 modifier to its Weapon Skill characteristic.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8f87-4176-76ac-67c8" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="4752-a00a-2cef-b917" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2030-a87c-2500-43c9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="603a-4054-71df-93be" name="Imperial Dwarf Mercenaries" publicationId="fc8a-2372-3e95-7ec6" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed31-1959-9b4b-baac" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="80b1-e01a-03df-c77f" name="Resolute" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
+          <description>Models with this special rule suffer a -1 modifier to the result of any Flee roll or Pursuit roll they make (to a minimum of 1).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="49ea-0109-6eb9-4fdc" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
+        <infoLink id="18b3-34e5-dce4-5acc" name="Magic Resistance (-1)" hidden="false" targetId="a872-7683-08ff-1fe2" type="rule"/>
+        <infoLink id="4f6c-c253-a74a-3bf7" name="Hatred (Orcs &amp; Goblins)" hidden="false" targetId="09f6-ba0a-b9d9-1ec1" type="rule"/>
+        <infoLink id="6a95-054c-4a64-5a55" name="Shieldwall" hidden="false" targetId="dddc-5d73-f3ad-601e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="778b-f1f7-23ce-19ab" name="New CategoryLink" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fc81-8d9a-7dbb-aa41" name="Warrior" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90d0-71d8-72ad-1fb7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="fa94-eb3d-f224-2002" name="Warrior" publicationId="fc8a-2372-3e95-7ec6" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5d58-67bb-a05a-d373" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+            <infoLink id="69bc-eb34-7528-a7a8" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="9fa2-8af2-0b53-6e89" name="Shields" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b7-641c-104f-796d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e6ce-b016-6698-6c19" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="10e7-0b97-6907-9d35" name="Equipment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2b-7540-8dc0-3ec9" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="48f8-261a-0a14-1b36" name="Crossbows" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc17-1463-4ffc-2674" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8f7a-8775-6ffd-4216" name="Crossbow" hidden="false" targetId="21bc-a1b5-bc81-18b5" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d494-acb9-e1c1-797c" name="Thrusting Spears" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3def-198d-a040-5c15" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9c1b-c76a-36e7-7aea" name="Thrusting Spear" hidden="false" targetId="312b-f5a7-f69d-972e" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="08f6-8628-894b-0626" name="Handguns" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="537c-76d4-216f-03e3" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6288-afc0-6781-1d0f" name="Handgun" hidden="false" targetId="9f59-57cc-a3f8-cb04" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ede4-3327-b342-dc25" name="Great Weapons" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="677c-5cba-f1c6-dde3" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4a59-822f-0b9c-9a8c" name="Great Weapon" hidden="false" targetId="a088-d26f-3db7-2f48" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="56ba-d77c-1e57-687e" name="Special Rules" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="a239-8b8b-6af5-4bd3" name="Veteran" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce2-4d31-e6f5-4bc9" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c098-f5a5-2299-eb0b" name="Veteran" hidden="false" targetId="d5b8-aef6-cedd-db24" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e341-6449-919c-24f3" name="Drilled" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e84-cb2b-b746-ec87" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="fd57-dafc-a94e-a3f1" name="Drilled" hidden="false" targetId="3fe0-4a62-3b25-997c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b088-b3db-5870-b937" name="Armour" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="845e-fd58-00b7-78de" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29fe-7ee7-a01e-fda1" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4c7e-69a5-ce9d-c713" name="Light Armour" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb01-d83e-696f-1d05" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="639e-e92b-3275-bc1b" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9616-0581-6e31-ee52" name="Heavy Armour" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d617-1aa8-358a-d1cf" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="5ad3-b275-462b-25f5" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="899d-4aed-ab81-1445" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9b25-282d-5505-74b2" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb2a-1f8c-2b45-7d54" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="10fa-c54d-2dd7-710d" name="Veteran" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                    <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                    <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                    <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                    <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                    <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="eb03-7bc0-3c17-c882" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="4752-a00a-2cef-b917" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f9-1e0b-0b53-25f2" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b831-affe-6115-3295" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d089-32e4-6acd-c730" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8b71-c493-bb9e-3a1e" name="Standard Runes" hidden="false" collective="false" import="true" targetId="faad-6997-5d2f-66af" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d9-31f1-2981-6c9a" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d1d4-4621-8056-d149" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9405-1957-f5ec-be0e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a73c-d7bd-932d-d961" name="Prince Ulther&apos;s Dragon Company" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e2b-f990-23ed-7fc7" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="9188-49ca-ff50-a624" name="Gromril Weapons" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
+          <description>A hand weapon carried by a model with this special rule has an Armor Piercing characteristic of -1.</description>
+        </rule>
+        <rule id="bafc-8523-cec0-0f45" name="Resolute" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
+          <description>Models with this special rule suffer a -1 modifier to the result of any Flee roll or Pursuit roll they make (to a minimum of 1).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3a7e-c6f3-dd45-ee16" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
+        <infoLink id="35b5-429a-3a9a-1eea" name="Drilled" hidden="false" targetId="3fe0-4a62-3b25-997c" type="rule"/>
+        <infoLink id="e1b9-825f-4672-d512" name="Hatred (Orcs &amp; Goblins)" hidden="false" targetId="09f6-ba0a-b9d9-1ec1" type="rule"/>
+        <infoLink id="5b4f-29d5-6a44-21b7" name="Magic Resistance (-1)" hidden="false" targetId="a872-7683-08ff-1fe2" type="rule"/>
+        <infoLink id="95f5-4798-a31d-76da" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b8e6-963d-2ce2-7942" name="New CategoryLink" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e5f5-fe0d-ccf1-2fe9" name="Dragon Company Trooper" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="2dbf-21e6-ad82-6745" name="Dragon Company Trooper" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1505-8ee0-d481-874f" name="Brace of Pistols (Combat)" hidden="false" targetId="b5a5-a68d-9c62-68a0" type="profile"/>
+            <infoLink id="862f-5a86-8fb1-bf6d" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
+            <infoLink id="d7b2-b712-0cfc-2cd8" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+            <infoLink id="7fce-2916-b2a0-ca6d" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+            <infoLink id="f671-4147-f1a0-ff26" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a65-0c95-ac3f-4f42" name="Prince Ulther Stonehammer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2950-c16d-6662-da3d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8d6-0c5b-d6b3-707a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e4aa-1569-e1e6-9e64" name="Prince Ulther Stonehammer" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">5</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry (named character)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c7a5-53c3-dd3f-bab2" name="Dragonblade" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2</characteristic>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armour Bane(1), Magical Attacks
+Prince Ulther may re-roll a single roll To Hit of a natural 1 made during the Combat phase while wielding the Dragonblade.
+The Dragonblade also grants the wielder a +1 modifier to their Attacks characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ff82-43cc-3f23-f1ec" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+            <infoLink id="b9b8-65d6-bc38-457b" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
+            <infoLink id="ce5b-b6c2-9171-47a3" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+            <infoLink id="e275-50be-47d1-0302" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
+            <infoLink id="07bc-9ebb-39fb-6309" name="Brace of Pistols (Combat)" hidden="false" targetId="b5a5-a68d-9c62-68a0" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="326a-aa34-35ca-be3a" name="Borri Forkbeard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89c3-7d89-a9aa-ea7d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4205-672a-566d-d258" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e259-77e3-af25-96fe" name="Borri Forkbeard" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8428-d25d-2147-59e4" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+            <infoLink id="4dfe-1099-ec6b-383e" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
+            <infoLink id="a08f-fea1-fa8f-6eb9" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
+            <infoLink id="bb39-5de0-141e-131c" name="Brace of Pistols (Combat)" hidden="false" targetId="b5a5-a68d-9c62-68a0" type="profile"/>
+            <infoLink id="044b-12fc-9e3d-17a1" name="Great Weapon" hidden="false" targetId="a088-d26f-3db7-2f48" type="profile"/>
+            <infoLink id="4328-9e79-da9f-17c0" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="7ce3-b7fd-ee22-ab7f" name="Dragon Company Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b5-51b2-1b6b-0bf5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c2-bed1-f89d-c522" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="aa6a-9a6d-8f74-0d7c" name="Dragon Company Trooper" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9e12-d400-6db4-5e3e" name="Brace of Pistols (Combat)" hidden="false" targetId="b5a5-a68d-9c62-68a0" type="profile"/>
+            <infoLink id="f0fd-c2b9-9565-bf68" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
+            <infoLink id="e72e-b0e6-e0ad-4b22" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+            <infoLink id="5eea-2aa3-f900-0cd2" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+            <infoLink id="1a3d-c846-246e-1c21" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="99da-ca4a-5b09-aa61" name="Dragon Company Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afab-db8a-c941-5cda" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b099-b46c-d777-6782" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f18c-3f93-42cb-44b8" name="Dragon Company Trooper" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ded2-b3d8-cbcd-ef4c" name="Brace of Pistols (Combat)" hidden="false" targetId="b5a5-a68d-9c62-68a0" type="profile"/>
+            <infoLink id="bc2d-d92a-853a-2f6e" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
+            <infoLink id="d9ef-3396-2be0-d05e" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+            <infoLink id="8e43-0272-f91a-9f3c" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+            <infoLink id="73b4-1ead-a773-8242" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="115.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="1436-ca6c-6355-4df2" name="War Altar Of Sigmar" publicationId="5cca-edd4-43a8-7719" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -5134,6 +5780,449 @@ Note that this is a modifier to the result of a roll - it does not negate a roll
         <entryLink id="c258-162d-928a-f339" name="FoF - The White Cloak" hidden="false" collective="false" import="true" targetId="f278-2900-9254-e110" type="selectionEntry"/>
         <entryLink id="cc77-58fd-2901-b976" name="FoF - Jade Amulet*" hidden="false" collective="false" import="true" targetId="0e0e-bfaf-8f56-a01e" type="selectionEntry"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4752-a00a-2cef-b917" name="Weapon Runes" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="018f-0b98-6865-e6b7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fa62-5968-5139-4062" name="Grudge Rune" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b2-7bd6-b220-b2c9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="80de-6936-9e7b-fc74" name="Grudge Rune" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">For each Grudge Rune inscribed upon a weapon, its weilder may re-roll a single roll To Hit of a natural 1 made during the Combat phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="46ef-b001-3050-2eed" name="Master Rune Of Alaric The Mad" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="513c-d9ca-3e2f-2fb9" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c596-35ea-ce3c-ecc4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3a6b-1aa1-9412-c55d" name="Master Rune Of Alaric The Mad" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">No armor save is permitted against wounds caused by a weapon inscribed with the Master Rune of Alaric the Mad (Ward and Regeneration saves can be attempted as normal).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="76e5-f11a-bf42-bdf6" name="Master Rune Of Breaking" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e71-e16a-047c-8bb5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a924-0bd3-2470-a227" name="Master Rune Of Breaking" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Any magic weapon carried by an enemy model that suffers one or more unsaved wounds from a weapon inscribed with the Master Rune of Breaking is destroyed and cannot be used for the remainder of the game.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4578-6f4f-a2c8-868e" name="Master Rune Of Dragon Slaying" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ec71-623c-2bee-2a7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feca-8401-bbe4-b007" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="85ba-6ce8-c13e-0dbe" name="Master Rune Of Dragon Slaying" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">When making a roll To Wound against an enemy whose troop type is &apos;behemoth&apos; with a weapon inscribed with the Master Rune of Dragon Slaying, a roll of 2+ is always a success regardless of the target&apos;s Toughness.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6358-ef93-a7da-b623" name="Master Rune Of Flight" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa0-448e-c54c-e492" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d98-efb4-0791-109a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0534-0803-e384-6765" name="Master Rune Of Flight" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Hand weapon only. Once per turn, during the Shooting phase, a weapon inscribed with the Master Rune of Flight can be thrown with the following profile (which may be modified by additional runes):
+R - 12&quot;
+S - As user
+AP -	
+Special Rules - Magical Attacks, Move &amp; Shoot, Quick Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="02d2-e7cf-5608-ff94" name="Master Rune Of Skalf Blackhammer" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac3-44aa-bf87-cff1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a21-8f17-7ec5-a15a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a520-00f8-652e-3233" name="Master Rune Of Skalf Blackhammer" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">When making a roll To Wound with a weapon inscribed with the Master Rune of Skalf Blackhammer, a roll of 2_ is always a success, regardless of the Target&apos;s Toughness.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="65.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25cd-6297-fd54-5223" name="Master Rune Of Smiting" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a17-afce-9ae3-b998" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b3c3-04b4-e3ec-f68a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="210c-a2b2-f493-b884" name="Master Rune Of Smiting" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">A weapon inscribed with the Master Rune of Smiting gains the Multiple Wounds (D6) special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="423a-36d1-09af-a65b" name="Multiple Wounds (X)" hidden="false" targetId="adf6-fb60-e691-631b" type="rule">
+              <comment>Multiple Wounds (D6)</comment>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="22e6-8836-4bbf-6184" name="Master Rune Of Swiftness" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55e8-44f8-8b17-6ab1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34c5-2310-8f66-d2cd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7745-0eb8-b97d-67a9" name="Master Rune Of Swiftness" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Strike First</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8a31-adb2-b4c9-d5db" name="Strike First" hidden="false" targetId="f9b1-c402-c396-dbbd" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fcba-539c-90d6-d717" name="Rune Of Banishment" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa9-4d6e-f05a-564e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="afcb-8ce7-cd09-af04" name="Rune Of Banishment" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Enemy models with the Warp-spawned special rule cannot make any Ward saves against hits caused by a weapon inscribed with the Rune of Banishment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ae0-8f69-4445-1c61" name="Rune Of Cleaving" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb92-6984-c27f-abde" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="91f3-28ea-e062-c88e" name="Rune Of Cleaving" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Hand weapon only. For each Rune of Cleaving inscribed upon a weapon, its Armor Piercing characteristic is improved by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b10-f44a-2fd6-bbac" name="Rune Of Fire" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3772-1bd5-c58a-6741" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7e3a-880a-58cd-74a5" name="Rune Of Fire" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">The wielder of a weapon inscribed with a Rune of Fire gains the Flaming Attacks special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d0f-ef52-9c99-34b1" name="Rune Of Fury" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24be-f806-dcd7-56fb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b34-e3f1-b795-5232" name="Rune Of Fury" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">For each Rune of Fury inscribed upon a weapon, its weilder has a +1 modifier to their Attacks characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9de8-bec2-e5ed-16c5" name="Rune Of Might" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff2-e9d2-c1c8-3fa5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1524-9858-7e8a-104b" name="Rune Of Might" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">For each Rune of Might inscribed upon a weapon, its wielder has a +1 modifier to their Strength characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3f7-a69d-b9c4-e4e0" name="Rune Of Parrying" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b302-a8b3-17ea-5623" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e877-084f-6e99-d819" name="Rune Of Parrying" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">An enemy model that directs its attacks against a model wielding a weapon inscribed with a Rune of parrying during the Combat phase suffers a -1 modifier to its rolls To Hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="42bc-3167-8bf7-7dee" name="Rune Of Speed" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d51-b930-dfbc-57be" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cca3-e602-307d-6d92" name="Rune Of Speed" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
+              <characteristics>
+                <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Hand weapon only. For each Rune of Speed inscribed upon a weapon, its wielder has a +1 modifier to their Initiative characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="02bc-4872-8d65-1f50" name="Rune Of Striking" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5df2-2109-e391-f042" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d65d-0247-fd64-d817" name="Rune Of Striking" publicationId="5cca-edd4-43a8-7719" page="34" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+                <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">For each Rune of Striking inscribed upon a weapon, its wielder has a +1 modifier to their Weapon Skill characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="faad-6997-5d2f-66af" name="Standard Runes" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d6e-f2c4-6e32-0998" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="29bc-70f0-89ea-3aa6" name="Master Rune Of Grugni" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3e5-abfe-a944-c0cb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a7f-ea44-34af-f533" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8599-4ad0-44e7-2bac" name="Master Rune Of Grugni" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">Battle Standard Bearer only. A unit carrying a standard inscribed with the Master Rune of Grugni has a 5+ Ward save against any wounds suffered. In addition, whilst within 6&quot; of the model carrying this standard, friendly units have a 6+ Ward save against any wounds suffered during the Shooting phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="80.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eee7-ee03-b41b-9f4c" name="Master Rune Of Hesitation" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b31-5e44-5a84-3155" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8136-17fd-044b-fea0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="61c0-3410-952a-9029" name="Master Rune Of Hesitation" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">An enemy unit that charges the front arc of a unit carrying a standard inscribed with the Rune og hesitation does not count as having charged for the purposes of choosing which weapon to use or using any special rules it may have.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e94-159d-3daa-e9cd" name="Master Rune Of Stromni Redbeard" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0033-f179-1b21-2e1d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="796c-e2e9-d58c-7859" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3bdc-88fa-2ea2-43eb" name="Master Rune Of Stromni Redbeard" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">When calculating its combat result, any friendly unit within the Command range of the model carrying the standard inscribed with the Master Rune of Stromni Redbeard may claim an additional bonus of +1 combat result point.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5dd-51a6-430e-a3d2" name="Rune Of Battle" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2934-4ee0-e2f4-6a1c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="068f-d51c-b10a-809d" name="Rune Of Battle" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
+              <characteristics>
+                <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">When calculating its combat result, a unit carrying a standard inscribed with a Rune of Battle may claim an additional bonus of +1 combat result point.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b45f-060a-18d0-3dfe" name="Rune Of Confusion" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cbf-944a-fc11-ae62" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ed51-7936-af2b-2222" name="Rune Of Confusion" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">Any enemy unit that charges the front arc of a unit carrying a standard inscribed with the Rune of Confusion makes a disordered charge.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="625d-7394-59bd-0122" name="Rune Of Courage" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb96-1880-97c8-d304" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e177-1e32-acd1-ad4f" name="Rune Of Courage" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">A unit carrying a standard inscribed with the Rune of Courage automatically passes any Fear or Terror tests it is required to make.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce20-9e03-493a-25de" name="Rune Of Fear" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3067-16ec-b7ef-728e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d398-6fc5-da32-4ce7" name="Rune Of Fear" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">A unit carrying a standard inscribed with the Rune of Fear gains the Fear special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e666-7eef-16e4-59ec" name="Strollaz&apos; Rune" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c81e-5054-ec35-6970" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a090-90bd-24ce-9db2" name="Strollaz&apos; Rune" publicationId="5cca-edd4-43a8-7719" page="37" hidden="false" typeId="4d61676963205374616e6461726423232344415441232323" typeName="Magic Standard">
+              <characteristics>
+                <characteristic name="Magical Emination" typeId="4d61676963616c20456d696e6174696f6e23232344415441232323">A unit carrying a standard inscribed with Strollaz&apos; Rune gains the Vanguard special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>

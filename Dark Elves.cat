@@ -99,6 +99,9 @@
               <infoLinks>
                 <infoLink id="d344-259d-54c5-a255" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fde8-cf02-94ad-a9a1" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -335,6 +338,9 @@
               <infoLinks>
                 <infoLink id="b2f4-15ca-4177-f8a4" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="449b-ff5e-e8e0-2e14" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -870,6 +876,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2607-9cdf-84e3-9d10" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5688-eb76-51cd-756a" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -886,6 +895,9 @@
               <infoLinks>
                 <infoLink id="905a-cee1-e214-bfed" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9b1a-a881-aef9-81c0" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1300,6 +1312,9 @@ If a unit in which a Khainite Assassin is hiding is destroyed or flees the battl
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="de29-2ad1-6631-cce8" name="Repeater Crossbowmen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1433,6 +1448,9 @@ If a unit in which a Khainite Assassin is hiding is destroyed or flees the battl
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7302-96cc-d3e4-2499" name="Black Ark Corsairs" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1487,6 +1505,9 @@ If a unit in which a Khainite Assassin is hiding is destroyed or flees the battl
                   <infoLinks>
                     <infoLink id="1d96-12dc-d8bb-42f4" name="Two/Additional Hand Weapons" hidden="false" targetId="3d9b-b6c0-fc3f-05d3" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="496b-e264-ea69-3e03" name="Repeater Handbow" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -1495,6 +1516,9 @@ If a unit in which a Khainite Assassin is hiding is destroyed or flees the battl
                   <infoLinks>
                     <infoLink id="8c1e-b401-2035-f9cc" name="Repeater Handbow" hidden="false" targetId="1ee5-4248-35d9-1d87" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -1560,6 +1584,9 @@ If a unit in which a Khainite Assassin is hiding is destroyed or flees the battl
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9962-9ecb-16ff-0064" name="Black Guard Of Naggarond" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1714,6 +1741,9 @@ A model wielding a dread halberd cannot make a supporting attack during a turn i
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dfea-26cf-3b39-1919" name="Har Ganeth Executioners" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1853,6 +1883,9 @@ A model wielding a dread halberd cannot make a supporting attack during a turn i
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2fdd-6d8c-e9d9-9092" name="Dark Elf Shades" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2033,6 +2066,9 @@ A model wielding a dread halberd cannot make a supporting attack during a turn i
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3075-6cc3-7bc6-6eab" name="Witch Elves" hidden="false" collective="false" import="true" type="unit">
       <comment>Special</comment>
@@ -2137,6 +2173,9 @@ A model wielding a dread halberd cannot make a supporting attack during a turn i
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="760a-6639-fc74-dc0c" name="Sisters Of Slaughter" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -2253,6 +2292,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ecc6-1944-bcc4-c3a3" name="Haripes" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2297,6 +2339,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="de72-0209-5929-37e0" name="Cold One Knights" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2385,6 +2430,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
                   <infoLinks>
                     <infoLink id="5144-b11c-1088-1e8e" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="6fce-9b2b-5a64-f581" name="Full Plate Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -2478,6 +2526,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b81-6099-f428-7b7b" name="Dark Riders" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2652,6 +2703,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d522-f999-9004-3e4f" name="Doomfire Warlocks" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2772,6 +2826,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6cf3-0a51-6048-9d21" name="Scourgerunner Chariots" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2800,6 +2857,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="952f-ceed-858c-e042" name="Cold One Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -2876,6 +2936,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           <infoLinks>
             <infoLink id="ddf5-3a28-6446-3d17" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f460-dcc9-655c-da34" name="Knight Charioteer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2906,6 +2969,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
             <infoLink id="c9c9-dd9f-d47d-dfa7" name="Spear (Mounted)" hidden="false" targetId="84dc-19d0-7212-72a9" type="profile"/>
             <infoLink id="1e01-8d99-3450-72a6" name="Repeater Crossbow" hidden="false" targetId="e55d-4be0-95f9-e622" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2981,6 +3047,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
           <infoLinks>
             <infoLink id="9d8e-91b4-3dcc-a576" name="Spear (Mounted)" hidden="false" targetId="84dc-19d0-7212-72a9" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8620-2683-b985-33a2" name="Bloodwrack Medusa" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3021,6 +3090,9 @@ target’s Toughness with its Initiative. </characteristic>
           <infoLinks>
             <infoLink id="9d32-5a0a-0589-72b8" name="Spear (Mounted)" hidden="false" targetId="84dc-19d0-7212-72a9" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3116,6 +3188,9 @@ In combat, this model must make each attack granted by the Extra Attacks (+remai
             <infoLink id="e919-b0a5-82e6-d079" name="Whip" hidden="false" targetId="4b62-7bc9-9ac2-aa53" type="profile"/>
             <infoLink id="abc5-4444-f519-d1c5" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3264,6 +3339,9 @@ Note that this modifier is not cumulative</description>
             <infoLink id="dd9d-6746-d896-b837" name="Whip" hidden="false" targetId="4b62-7bc9-9ac2-aa53" type="profile"/>
             <infoLink id="9c5d-fc67-505d-c4a8" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3314,6 +3392,14 @@ Note that this modifier is not cumulative</description>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323"/>
+          </characteristics>
+        </profile>
+        <profile id="eeb6-6c33-0187-60d5" name="Repeater Bolt Thrower" publicationId="5fe9-85b6-a584-6dfe" page="223" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-3</characteristic>
+            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Cumbersome, Move or Shoot, Multiple Wounds (2), Rapid Fire, Through &amp; Through</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3444,6 +3530,9 @@ Note that this modifier is not cumulative</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b102-c401-f740-b9a3" name="War Hydra" hidden="true" collective="false" import="true" type="unit">
       <comment>Special</comment>
@@ -3549,6 +3638,9 @@ In combat, this model must make each attack granted by the Extra Attacks (+remai
             <infoLink id="bef8-b7ca-a5dd-df02" name="Whip" hidden="false" targetId="4b62-7bc9-9ac2-aa53" type="profile"/>
             <infoLink id="2fec-b5ad-0052-28e1" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3656,6 +3748,9 @@ Note that this modifier is not cumulative</description>
             <infoLink id="5771-5de5-9b20-953c" name="Whip" hidden="false" targetId="4b62-7bc9-9ac2-aa53" type="profile"/>
             <infoLink id="7e28-8e95-d804-c6f5" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3704,6 +3799,9 @@ Note that this modifier is not cumulative</description>
         <infoLink id="032a-7aef-1d0b-e3db" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
         <infoLink id="60ad-0945-dccc-922b" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0b26-1d7f-72a2-d925" name="Dark Pegasus" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3794,6 +3892,9 @@ Note that this modifier is not cumulative</description>
           <infoLinks>
             <infoLink id="65a1-a087-0c52-a08e" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cbf4-473e-168f-82ad" name="Knight Charioteer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3824,6 +3925,9 @@ Note that this modifier is not cumulative</description>
             <infoLink id="ce38-edef-80d5-19db" name="Spear (Mounted)" hidden="false" targetId="84dc-19d0-7212-72a9" type="profile"/>
             <infoLink id="08f6-df6e-056f-1586" name="Repeater Crossbow" hidden="false" targetId="e55d-4be0-95f9-e622" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3877,6 +3981,9 @@ During the Shooting phase, one of the Beastmaster Crew may fire this weapon inst
           <infoLinks>
             <infoLink id="17e6-44f0-875b-25f3" name="Dark Steed" hidden="false" targetId="8a4a-77b4-bef6-895d" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ac3b-b132-bd9f-eba2" name="Beastmaster Crew" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3907,6 +4014,9 @@ During the Shooting phase, one of the Beastmaster Crew may fire this weapon inst
             <infoLink id="eeb3-22b2-de54-3868" name="Spear (Mounted)" hidden="false" targetId="84dc-19d0-7212-72a9" type="profile"/>
             <infoLink id="ff79-5b64-c506-0952" name="Repeater Crossbow" hidden="false" targetId="e55d-4be0-95f9-e622" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3998,6 +4108,9 @@ Effect: Until your next Start of Turn sub-phase, this model and every friendly D
           <infoLinks>
             <infoLink id="2ab3-c37b-0d08-6bf1" name="Two/Additional Hand Weapons" hidden="false" targetId="3d9b-b6c0-fc3f-05d3" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>

@@ -2227,12 +2227,12 @@ In combat, this model must make one of its attacks each turn with this weapon.</
             <characteristic name="Type" typeId="5479706523232344415441232323"/>
           </characteristics>
         </profile>
-        <profile id="c58d-a820-2214-3db7" name="Eagle-eye Bolt Thrower" publicationId="5cca-edd4-43a8-7719" page="172" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="c58d-a820-2214-3db7" name="Repeater Bolt Thrower" publicationId="5fe9-85b6-a584-6dfe" page="223" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
-            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
-            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Cumbersome, Multiple Wounds (D3)</characteristic>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-3</characteristic>
+            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Cumbersome, Move or Shoot, Multiple Wounds (2), Rapid Fire, Through &amp; Through</characteristic>
           </characteristics>
         </profile>
       </profiles>

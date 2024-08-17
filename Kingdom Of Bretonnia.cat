@@ -1163,7 +1163,7 @@ Enemy units can charge the front of a unit equipped with defensive stakes as nor
         <infoLink id="93e5-ed5a-c7f6-ba5c" name="The Knight&apos;s Vow" hidden="false" targetId="df51-760a-80ae-7d37" type="rule"/>
         <infoLink id="e309-477c-e7a3-c8a3" name="Barded Pegasus" hidden="false" targetId="96d6-669e-26d3-4e85" type="profile"/>
         <infoLink id="151f-489f-e3a4-a7de" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
-        <infoLink id="7e46-76db-b99c-d968" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
+        <infoLink id="7e46-76db-b99c-d968" name="Fly (10)" hidden="false" targetId="d803-3575-3b4e-dfe7" type="rule"/>
         <infoLink id="8586-09cb-fca4-1643" name="Furious Charge" hidden="false" targetId="9f16-1024-2d45-97cf" type="rule"/>
         <infoLink id="2f19-e864-1bc4-7874" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
       </infoLinks>
@@ -1955,7 +1955,7 @@ Note that when the Green Knight appears within a natural terrain feature, he mus
       <infoLinks>
         <infoLink id="96ac-5082-ef51-7c3a" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
         <infoLink id="3539-9b11-dcf0-ed74" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-        <infoLink id="c9f5-7744-21d2-1afb" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="c9f5-7744-21d2-1afb" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
         <infoLink id="2fc2-51e5-dd67-f461" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
         <infoLink id="9721-25ec-c61a-4123" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
       </infoLinks>
@@ -2035,7 +2035,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
           <infoLinks>
             <infoLink id="bd3f-6bb4-d870-8456" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
             <infoLink id="ffb6-4f9f-1274-08bf" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-            <infoLink id="2cef-107c-e783-b386" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+            <infoLink id="2cef-107c-e783-b386" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
             <infoLink id="fefa-51a6-0ffb-5b68" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
             <infoLink id="be4a-4d1b-1b72-7078" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
             <infoLink id="d487-f8b0-18e8-af37" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
@@ -2637,7 +2637,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
         <infoLink id="4622-3529-8521-f8a6" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
         <infoLink id="7acd-5b14-e3ea-a28d" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
         <infoLink id="aef9-a121-2643-2172" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
-        <infoLink id="40dc-44ae-ed71-c25a" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
+        <infoLink id="40dc-44ae-ed71-c25a" name="Magic Resistance (-2)" hidden="false" targetId="32e6-fa14-a93c-aa3d" type="rule"/>
         <infoLink id="e1f7-3594-1112-58f0" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="85b7-3aa7-2e61-b424" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="3a5a-4595-29e5-e4d3" name="Lore Of The Lady" hidden="false" targetId="9d06-fef6-1a0f-938f" type="rule"/>
@@ -2735,7 +2735,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
       <infoLinks>
         <infoLink id="f9ef-6221-2542-8f4b" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
         <infoLink id="a690-defb-1304-dcfe" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
-        <infoLink id="16fc-fdfa-2317-9a98" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
+        <infoLink id="16fc-fdfa-2317-9a98" name="Magic Resistance (-2)" hidden="false" targetId="32e6-fa14-a93c-aa3d" type="rule"/>
         <infoLink id="68e1-4bbc-ddf1-6d52" name="Lore Of The Lady" hidden="false" targetId="9d06-fef6-1a0f-938f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2873,7 +2873,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
       <infoLinks>
         <infoLink id="0feb-77bf-f631-9ab5" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
         <infoLink id="9913-a839-c48d-7be4" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
-        <infoLink id="ed5d-8408-496d-b383" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
+        <infoLink id="ed5d-8408-496d-b383" name="Magic Resistance (-2)" hidden="false" targetId="32e6-fa14-a93c-aa3d" type="rule"/>
         <infoLink id="364b-b022-46b5-b809" name="Lore Of The Lady" hidden="false" targetId="9d06-fef6-1a0f-938f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3125,7 +3125,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
       <infoLinks>
         <infoLink id="8a44-e8f6-a386-1d20" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
         <infoLink id="af5c-22e1-e1ce-5855" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
-        <infoLink id="1496-d0ff-f436-53b3" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
+        <infoLink id="1496-d0ff-f436-53b3" name="Magic Resistance (-1)" hidden="false" targetId="a872-7683-08ff-1fe2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3ab4-46eb-1743-1945" name="New CategoryLink" hidden="false" targetId="a34a-cb0b-08bf-c571" primary="true"/>
@@ -3639,7 +3639,7 @@ A model wielding a polearm cannot make a supporting attack during a turn in whic
       <infoLinks>
         <infoLink id="25fd-17d9-d234-1cbf" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
         <infoLink id="2abc-ad03-a715-b6ad" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-        <infoLink id="d7ac-b9c2-cbae-b29f" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="d7ac-b9c2-cbae-b29f" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
         <infoLink id="9eef-ff28-8557-449d" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
         <infoLink id="33aa-c4e9-07f6-76a4" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
       </infoLinks>
@@ -3719,7 +3719,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
           <infoLinks>
             <infoLink id="1e67-8452-fdbb-d118" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
             <infoLink id="5103-1b76-7e35-526c" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-            <infoLink id="04be-6863-7aa1-22ec" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+            <infoLink id="04be-6863-7aa1-22ec" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
             <infoLink id="affa-2ddc-e6b5-a7a4" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
             <infoLink id="b2d2-de73-f0d2-b42d" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
             <infoLink id="93c8-0888-3f75-55b0" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
@@ -4217,7 +4217,7 @@ A model armed with a blunderbuss suffers no negative modifiers for firing at lon
       <infoLinks>
         <infoLink id="c808-d4d4-6391-3222" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
         <infoLink id="d95c-d4ea-86fc-da0e" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-        <infoLink id="a9e4-153e-bc9c-edc8" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="a9e4-153e-bc9c-edc8" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
         <infoLink id="63ed-a336-58ac-26a3" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
         <infoLink id="400d-12f7-ef25-33d0" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
         <infoLink id="77b6-676e-6143-64e4" name="Crusader&apos;s Zeal" hidden="false" targetId="a569-7c5b-2743-0242" type="rule"/>
@@ -4298,7 +4298,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
           <infoLinks>
             <infoLink id="b42f-9c85-8959-aea9" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
             <infoLink id="775e-4da0-37d8-9a2a" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-            <infoLink id="fd86-b9da-a45c-b433" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+            <infoLink id="fd86-b9da-a45c-b433" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
             <infoLink id="bbc5-8c3d-5563-b000" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
             <infoLink id="0704-f480-f332-4278" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
             <infoLink id="746a-e69f-abec-cc1b" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
@@ -4327,7 +4327,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
       <infoLinks>
         <infoLink id="88ee-4f52-d79b-0637" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
         <infoLink id="4f3c-4175-9d4c-8d99" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-        <infoLink id="7a36-51f7-4f00-31bf" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="7a36-51f7-4f00-31bf" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
         <infoLink id="ddbc-59dc-c877-13cc" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
         <infoLink id="135c-16e0-b4e6-fdd9" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
         <infoLink id="1818-014a-fbb2-7b0a" name="Crusader&apos;s Zeal" hidden="false" targetId="a569-7c5b-2743-0242" type="rule"/>
@@ -4407,7 +4407,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
           <infoLinks>
             <infoLink id="5890-b6c9-377f-37ac" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
             <infoLink id="fb26-fc33-3ce9-aa4d" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
-            <infoLink id="297b-e5a1-7eb2-64b3" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+            <infoLink id="297b-e5a1-7eb2-64b3" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
             <infoLink id="f1af-730b-38eb-515c" name="Levies" hidden="false" targetId="6202-62c7-86a8-3919" type="rule"/>
             <infoLink id="2326-d89f-975c-df1f" name="Peasantry" hidden="false" targetId="67ec-89e2-c47c-7e2c" type="rule"/>
             <infoLink id="9e8f-9a55-b834-c5f0" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
@@ -4492,7 +4492,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
         <infoLink id="67c6-6ff2-51eb-fc26" name="Barded Pegasus" hidden="false" targetId="96d6-669e-26d3-4e85" type="profile"/>
         <infoLink id="af90-c13a-4290-e9fd" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
         <infoLink id="f512-b504-24ff-b5fb" name="Barding" hidden="false" targetId="b15a-0fa5-3b2f-cded" type="profile"/>
-        <infoLink id="92e2-71ce-ecbb-c345" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
+        <infoLink id="92e2-71ce-ecbb-c345" name="Fly (10)" hidden="false" targetId="d803-3575-3b4e-dfe7" type="rule"/>
         <infoLink id="65ad-f076-1587-c6ed" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
       <costs>
@@ -4509,7 +4509,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
         <infoLink id="ecb2-46a2-ee1a-1cac" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
         <infoLink id="41d6-74fe-b3f4-8e21" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
         <infoLink id="6c29-e9de-8a68-a9f1" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
-        <infoLink id="3157-abaa-71c6-4849" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
+        <infoLink id="3157-abaa-71c6-4849" name="Fly (10)" hidden="false" targetId="d803-3575-3b4e-dfe7" type="rule"/>
         <infoLink id="a23d-acba-1701-1a4b" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="440d-0638-057d-dab7" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
@@ -4601,7 +4601,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
       </profiles>
       <infoLinks>
         <infoLink id="9a57-4e75-067f-0022" name="Extra Attacks (+X)" hidden="false" targetId="3f29-140b-ef76-192f" type="rule"/>
-        <infoLink id="972c-9243-9936-fa62" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="972c-9243-9936-fa62" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
@@ -4681,7 +4681,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
       <profiles>
         <profile id="04f5-e2ea-0eca-2825" name="Virtue Of The Impetuous Knight" publicationId="5cca-edd4-43a8-7719" page="102" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
           <characteristics>
-            <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A mode iwht this Virtue gains the Impetuous special rule. in addition, this model (and its unit) increase its maximum possibly charge range by 3&quot;. Finally, when this model (and its unit) makes a Charge roll, you may apply a +D3 modifier to the result.</characteristic>
+            <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">A mode with this Virtue gains the Impetuous special rule. In addition, this model (and its unit) increase its maximum possible charge range by 3&quot;. Finally, when this model (and its unit) makes a Charge roll, you may apply a +D3 modifier to the result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4944,7 +4944,7 @@ The Crusader’s Lance may only be taken by a model in an Errantry Crusade Army 
       <infoLinks>
         <infoLink id="5c33-4f5a-bd67-52c5" name="Furious Charge" hidden="false" targetId="9f16-1024-2d45-97cf" type="rule"/>
         <infoLink id="aa0e-1fff-8e9f-e4bd" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
-        <infoLink id="ede8-da8d-cfed-d1d0" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="ede8-da8d-cfed-d1d0" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
         <infoLink id="9700-4ae1-403b-1f1f" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
       </infoLinks>
       <costs>
@@ -5049,6 +5049,9 @@ Any enemy model that suffers one or more unsaved wounds from the Foebreaker must
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e70c-4762-77e0-e7ed" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
